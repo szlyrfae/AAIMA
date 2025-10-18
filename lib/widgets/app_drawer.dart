@@ -1,5 +1,6 @@
 import 'package:aaima/main.dart';
 import 'package:flutter/material.dart';
+import '../constants/app_colors.dart';
 
 class AppDrawer extends StatelessWidget {
   const AppDrawer({super.key});
@@ -27,7 +28,7 @@ class AppDrawer extends StatelessWidget {
               children: [
                 CircleAvatar(
                   radius: 30,
-                  backgroundColor: Colors.white,
+                  backgroundColor: AppColors.textOnDark,
                   child: Icon(
                     Icons.mosque,
                     size: 35,
@@ -38,7 +39,7 @@ class AppDrawer extends StatelessWidget {
                 const Text(
                   'Asas-Asas Islam',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: AppColors.textOnDark,
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),
@@ -46,7 +47,7 @@ class AppDrawer extends StatelessWidget {
                 const Text(
                   'Islamic Learning App',
                   style: TextStyle(
-                    color: Colors.white70,
+                    color: AppColors.secondaryTextOnDark,
                     fontSize: 14,
                   ),
                 ),

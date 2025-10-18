@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../main.dart';
 import '../Aqidah/aqidah.dart';
+import '../constants/app_colors.dart';
 
 class AppBottomNavigationBar extends StatefulWidget {
   final int currentIndex;
@@ -58,7 +59,7 @@ class _AppBottomNavigationBarState extends State<AppBottomNavigationBar> {
       currentIndex: _selectedIndex,
       onTap: _onItemTapped,
       selectedItemColor: Theme.of(context).colorScheme.primary,
-      unselectedItemColor: Colors.grey,
+      unselectedItemColor: AppColors.unselectedColor,
       items: const [
         BottomNavigationBarItem(
           icon: Icon(Icons.newspaper),
