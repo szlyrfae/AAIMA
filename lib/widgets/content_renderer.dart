@@ -32,6 +32,7 @@ class ContentRenderer extends StatelessWidget {
               color: item['isArabic'] ? AppColors.colourAaima2 : AppColors.primaryText,
               height: lineHeight,
             ),
+              textAlign: TextAlign.justify
           ),
         );
       }).toList(),
@@ -56,3 +57,4 @@ class ContentRenderer extends StatelessWidget {
     );
   }
 }
+

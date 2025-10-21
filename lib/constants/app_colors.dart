@@ -35,3 +35,4 @@ class AppColors {
   static const Color textOnDark = colourAaima6;
   static const Color secondaryTextOnDark = colourAaima7;
 }
+

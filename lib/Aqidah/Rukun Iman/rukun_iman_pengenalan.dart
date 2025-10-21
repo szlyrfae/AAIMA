@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import '../../widgets/app_drawer.dart';
 import '../../widgets/app_bottomNavigationBar.dart';
@@ -8,6 +7,7 @@ import '../../widgets/pdf_download_fab.dart';
 import '../../constants/app_colors.dart';
 import 'package:flutter/services.dart' show ByteData, Uint8List, rootBundle;
 import 'package:path_provider/path_provider.dart';
+import 'package:open_filex/open_filex.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class RukunImanPengenalanPage extends StatefulWidget {
@@ -89,6 +89,7 @@ class _RukunImanPengenalanPageState extends State<RukunImanPengenalanPage> {
                       fontFamily: 'Roboto',
                       fontWeight: FontWeight.bold,
                     ),
+                      textAlign: TextAlign.justify
                   ),
                 ),
               ],
@@ -104,26 +105,46 @@ class _RukunImanPengenalanPageState extends State<RukunImanPengenalanPage> {
       bottomNavigationBar: AppBottomNavigationBar(
         currentIndex: _selectedIndex,
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          // Ask for storage permission
-          var status = await Permission.storage.request();
-          if (!status.isGranted) return;
+        floatingActionButton: FloatingActionButton(
+            onPressed: () async {
+              try {
+                if (await Permission.storage.request().isDenied) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Storage permission denied')),
+                  );
+                  return;
+                }
 
-          final ByteData bytes = await rootBundle.load('assets/files/2.-rukun-iman-pertama-beriman-kepada-allah.pdf');
-          final Uint8List list = bytes.buffer.asUint8List();
+                if (await Permission.manageExternalStorage.isDenied) {
+                  await Permission.manageExternalStorage.request();
+                }
 
-          // Get the Downloads folder
-          Directory? directory = Directory('/storage/emulated/0/Download');
-          final file = File('${directory.path}/2.-rukun-iman-pertama-beriman-kepada-allah.pdf');
+                final ByteData bytes = await rootBundle.load('assets/files/aqidah/2.-rukun-iman-pertama-beriman-kepada-allah.pdf');
 
-          await file.writeAsBytes(list);
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('PDF downloaded to Downloads folder!')),
-          );
-        },
-        child: const Icon(Icons.download),
-      )
+                Directory? directory;
+                if (Platform.isAndroid) {
+                  directory = Directory('/storage/emulated/0/Download');
+                } else {
+                  directory = await getApplicationDocumentsDirectory();
+                }
+
+                final file = File('${directory.path}/pengenalan_rukun_iman.pdf');
+                await file.writeAsBytes(bytes.buffer.asUint8List());
+
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(content: Text('PDF saved successfully at ${file.path}')),
+                );
+
+                await OpenFilex.open(file.path);
+              } catch (e) {
+                // print('Error occurred: $e');
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(content: Text('Error: $e')),
+                );
+              }
+            },
+          child: const Icon(Icons.download),
+        )
     );
   }
 

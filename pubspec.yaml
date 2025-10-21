@@ -28,7 +28,6 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  permission_handler: ^12.0.1
   flutter:
     sdk: flutter
 
@@ -37,7 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   
   # PDF and file handling dependencies
-  path_provider: ^2.1.1
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.3
+  open_filex: ^4.5.0
 
 dev_dependencies:
   flutter_test:
