@@ -5,6 +5,8 @@ import 'widgets/app_bottomNavigationBar.dart';
 import 'constants/app_colors.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(const MyApp());
 }
 

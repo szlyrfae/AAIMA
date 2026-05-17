@@ -1,116 +1,294 @@
 class ContentTexts {
-  // Rukun Iman Pengenalan Content
-  static const String rukunImanDefinition = 
-      'Rukun Iman ialah: Beriman kepada Allah, Malaikat-malaikat-Nya, Kitab-kitab-Nya, Rasul-rasul-Nya dan Hari Akhirat serta Qadar (untung) baik mahupun buruk.';
-
-  static const String quranVerse1 = 
-      'Firman Allah Taala: "….kebajikan itu ialah beriman kepada Allah, Hari Akhirat, para malaikat, kitab-kitab dan nabi-nabi". (Surah Al-Baqarah, Ayat 177).';
-
-  static const String quranVerse2 = 
-      'Firman Allah Taala: "Semuanya beriman kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya dan rasul-rasul-Nya. Mereka berkata: Kami tidak membezakan antara seorang dengan yang lain dari rasul-rasul-Nya". (Surah Al-Baqarah, Ayat 285).';
-
-  static const String quranVerse3 = 
-      '"Sesungguhnya Kami menciptakan setiap sesuatu menurut takdir (yang telah ditentukan)". (Surah Al-Qamar, Ayat 49).';
-
-  static const String hadithArabic1 = 
-      'الإيمان أن تؤمن بالله، وملائكته، وكتبه، ورسله، واليوم الآخر، وتؤمن بالقدر خير وشره . [ رواه مسلم ].';
-
-  static const String hadithTranslation1 = 
-      '"Iman itu ialah: Engkau beriman dengan Allah, para malaikat-Nya, kitab-kitab-Nya, rasul-rasul-Nya dan Hari Akhirat serta Qadar (untung) baik dan yang tidak baik". (Hadith riwayat Muslim).';
-
-  static const String imanDefinition = 
-      'Iman itu: Pengucapan dengan lidah, iktikad (percaya) dengan hati dan beramal dengan anggota, iman bertambah dengan melakukan ketaatan serta berkurangan dengan sebab melakukan maksiat.';
-
-  static const String quranVerse4 = 
-      'Firman Allah Taala: "Sesungguhnya orang-orang yang beriman itu (yang sempurna imannya) ialah mereka yang apabila disebut (nama) Allah (dan sifat-sifat-Nya) gementarlah hati mereka dan apabila dibacakan kepada mereka ayat-ayat-Nya, maka bertambah iman mereka dan kepada Tuhan mereka jualah mereka berserah. Orang-orang yang mendirikan solat dan yang mendermakan sebahagian daripada rezeki yang Kami kurniakan kepada mereka, merekalah orang-orang yang beriman dengan sebenar-benarnya. Mereka akan mendapat pangkat-pangkat yang tinggi di sisi Tuhan mereka dan keampunan serta limpah kurnia yang mulia (syurga)". (Surah Al-Anfal, Ayat 2-4).';
-
-  static const String quranVerse5 = 
-      'Firman Allah Taala: "Sesiapa yang kufur kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya dan rasul-rasul-Nya juga Hari Akhirat, maka sesungguhnya ia telah sesat dengan kesesatan yang sejauh-jauhnya". (Surah An-Nisa\', Ayat 136).';
-
-  static const String imanWithTongue = 
-      'Iman dengan lidah adalah seperti zikir, doa, amar makruf nahi mungkar, membaca Al-Quran dan seumpamanya.';
-
-  static const String imanWithHeart = 
-      'Manakala iman dengan hati adalah seperti iktikad (percaya) kepada keesaan Allah dalam "Rububiyyah" (kekuasaan)-Nya, "Uluhiyyah" (ketuhanan)-Nya, nama-nama-Nya, sifat-sifat-Nya dan wajib menyembah-Nya dengan tidak ada sekutu bagi-Nya serta semua perkara yang berkaitan dengannya daripada niat dan "maqasid" (tujuan).';
-
-  static const String heartActions = 
-      'Termasuk juga dalam takrifan iman ialah amalan-amalan hati, seperti cintakan Allah, takutkan-Nya, sentiasa kembali kepadaNya, bertawakkal kepada-Nya dan sebagainya.';
-
-  static const String bodyActions = 
-      'Juga termasuk dalam kategori iman, amalan-amalan yang dilakukan oleh anggota, antaranya: Solat, puasa, semua Rukun Islam yang lain, berjihad pada jalan Allah, menuntut ilmu dan lain-lain.';
-
-  static const String quranVerse6 = 
-      'Firman Allah Taala: "Dan apabila dibacakan kepada mereka ayat-ayat-Nya, maka bertambah iman mereka". (Surah Al-Anfal, Ayat 2).';
-
-  static const String quranVerse7 = 
-      'Firman Allah Taala: "(Dialah Tuhan yang membuka jalan kemenangan itu) Dialah yang menurunkan ketenangan ke dalam hati orang-orang yang beriman (semasa mereka meradang terhadap angkara musuh) supaya keimanan dan keyakinan mereka bertambah di samping keimanan dan keyakinan mereka yang telah sedia ada". (Surah Al-Fath, Ayat 4).';
-
-  static const String imanIncreaseDecrease = 
-      'Iman itu bertambah apabila bertambahnya ketaatan dan pendekatan diri seseorang kepada Allah dan iman akan berkurang apabila kurang amalan dan pendekatan diri seseorang kepada Allah, demikian juga dengan maksiat, ia akan mengurangkan kesempurnaan iman. Apabila perbuatan syirik yang besar atau perbuatan kufur yang besar dilakukan maka terungkailah asas iman menurut syarak dan terbatallah iman seseorang itu, manakala sekiranya perbuatan syirik kecil dilakukan maka ianya merosakkan kesempurnaan iman yang wajib atau mengeruhkan kemurniannya serta melemahkannya.';
-
-  static const String quranVerse8 = 
-      'Firman Allah Taala: "Sesungguhnya Allah tidak akan mengampunkan dosa syirik (mempersekutukan)-Nya (dengan sesuatu yang lain) dan akan mengampunkan dosa yang lain dari itu bagi sesiapa yang dikehendaki-Nya". (Surah An-Nisa\', Ayat 48).';
-
-  static const String quranVerse9 = 
-      'Firman Allah Taala: "Mereka bersumpah dengan nama Allah bahawa mereka tidak mengatakan (sesuatu yang buruk terhadapmu), padahal sesungguhnya mereka telah mengatakan kufur dan mereka pula menjadi kafir sesudah (melahirkan) Islam". (Surah At-Taubah, Ayat 74).';
-
-  static const String hadithArabic2 = 
-      'لا يزني الزاني حين يزني وهو مؤمن، ولا يسرق السارق حين يسرق وهو مؤمن، ولا يشرب الخمر حين شربها وهو مؤمن . [ متفق عليه ].';
-
-  static const String hadithTranslation2 = 
-      '"Tidak berzina seorang penzina ketika melakukan zina dalam keadaan dia beriman, tidak mencuri seorang pencuri ketika mencuri dalam keadaan dia beriman dan tidak minum arak seseorang ketika meminumnya dalam keadaan dia beriman". (Hadith Muttafaq \'Alaih: Al-Bukhari dan Muslim)';
-
-  // Function to get all content as a list
-  static List<String> getRukunImanPengenalanContent() {
-    return [
-      quranVerse1,
-      quranVerse2,
-      quranVerse3,
-      'Sabda Rasulullah s.a.w:',
-      hadithArabic1,
-      hadithTranslation1,
-      imanDefinition,
-      quranVerse4,
-      quranVerse5,
-      imanWithTongue,
-      imanWithHeart,
-      heartActions,
-      bodyActions,
-      quranVerse6,
-      quranVerse7,
-      imanIncreaseDecrease,
-      quranVerse8,
-      quranVerse9,
-      'Sabda Nabi s.a.w:',
-      hadithArabic2,
-      hadithTranslation2,
-    ];
-  }
-
   // Function to get content with special formatting
   static List<Map<String, dynamic>> getRukunImanPengenalanFormatted() {
     return [
-      {'text': quranVerse1, 'isBold': false, 'isArabic': false},
-      {'text': quranVerse2, 'isBold': false, 'isArabic': false},
-      {'text': quranVerse3, 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "….kebajikan itu ialah beriman kepada Allah, Hari Akhirat, para malaikat, kitab-kitab dan nabi-nabi". (Surah Al-Baqarah, Ayat 177).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Semuanya beriman kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya dan rasul-rasul-Nya. Mereka berkata: Kami tidak membezakan antara seorang dengan yang lain dari rasul-rasul-Nya". (Surah Al-Baqarah, Ayat 285).', 'isBold': false, 'isArabic': false},
+      {'text': '"Sesungguhnya Kami menciptakan setiap sesuatu menurut takdir (yang telah ditentukan)". (Surah Al-Qamar, Ayat 49).', 'isBold': false, 'isArabic': false},
       {'text': 'Sabda Rasulullah s.a.w:', 'isBold': true, 'isArabic': false},
-      {'text': hadithArabic1, 'isBold': false, 'isArabic': true},
-      {'text': hadithTranslation1, 'isBold': false, 'isArabic': false},
-      {'text': imanDefinition, 'isBold': false, 'isArabic': false},
-      {'text': quranVerse4, 'isBold': false, 'isArabic': false},
-      {'text': quranVerse5, 'isBold': false, 'isArabic': false},
-      {'text': imanWithTongue, 'isBold': false, 'isArabic': false},
-      {'text': imanWithHeart, 'isBold': false, 'isArabic': false},
-      {'text': heartActions, 'isBold': false, 'isArabic': false},
-      {'text': bodyActions, 'isBold': false, 'isArabic': false},
-      {'text': quranVerse6, 'isBold': false, 'isArabic': false},
-      {'text': quranVerse7, 'isBold': false, 'isArabic': false},
-      {'text': imanIncreaseDecrease, 'isBold': false, 'isArabic': false},
-      {'text': quranVerse8, 'isBold': false, 'isArabic': false},
-      {'text': quranVerse9, 'isBold': false, 'isArabic': false},
+      {'text': 'الإيمان أن تؤمن بالله، وملائكته، وكتبه، ورسله، واليوم الآخر، وتؤمن بالقدر خير وشره . [ رواه مسلم ].', 'isBold': false, 'isArabic': true},
+      {'text': '"Iman itu ialah: Engkau beriman dengan Allah, para malaikat-Nya, kitab-kitab-Nya, rasul-rasul-Nya dan Hari Akhirat serta Qadar (untung) baik dan yang tidak baik". (Hadith riwayat Muslim).', 'isBold': false, 'isArabic': false},
+      {'text': 'Iman itu: Pengucapan dengan lidah, iktikad (percaya) dengan hati dan beramal dengan anggota, iman bertambah dengan melakukan ketaatan serta berkurangan dengan sebab melakukan maksiat.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Sesungguhnya orang-orang yang beriman itu (yang sempurna imannya) ialah mereka yang apabila disebut (nama) Allah (dan sifat-sifat-Nya) gementarlah hati mereka dan apabila dibacakan kepada mereka ayat-ayat-Nya, maka bertambah iman mereka dan kepada Tuhan mereka jualah mereka berserah. Orang-orang yang mendirikan solat dan yang mendermakan sebahagian daripada rezeki yang Kami kurniakan kepada mereka, merekalah orang-orang yang beriman dengan sebenar-benarnya. Mereka akan mendapat pangkat-pangkat yang tinggi di sisi Tuhan mereka dan keampunan serta limpah kurnia yang mulia (syurga)". (Surah Al-Anfal, Ayat 2-4).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Sesiapa yang kufur kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya dan rasul-rasul-Nya juga Hari Akhirat, maka sesungguhnya ia telah sesat dengan kesesatan yang sejauh-jauhnya". (Surah An-Nisa\', Ayat 136).', 'isBold': false, 'isArabic': false},
+      {'text': 'Iman dengan lidah adalah seperti zikir, doa, amar makruf nahi mungkar, membaca Al-Quran dan seumpamanya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Manakala iman dengan hati adalah seperti iktikad (percaya) kepada keesaan Allah dalam "Rububiyyah" (kekuasaan)-Nya, "Uluhiyyah" (ketuhanan)-Nya, nama-nama-Nya, sifat-sifat-Nya dan wajib menyembah-Nya dengan tidak ada sekutu bagi-Nya serta semua perkara yang berkaitan dengannya daripada niat dan "maqasid" (tujuan).', 'isBold': false, 'isArabic': false},
+      {'text': 'Termasuk juga dalam takrifan iman ialah amalan-amalan hati, seperti cintakan Allah, takutkan-Nya, sentiasa kembali kepadaNya, bertawakkal kepada-Nya dan sebagainya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Juga termasuk dalam kategori iman, amalan-amalan yang dilakukan oleh anggota, antaranya: Solat, puasa, semua Rukun Islam yang lain, berjihad pada jalan Allah, menuntut ilmu dan lain-lain.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan apabila dibacakan kepada mereka ayat-ayat-Nya, maka bertambah iman mereka". (Surah Al-Anfal, Ayat 2).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "(Dialah Tuhan yang membuka jalan kemenangan itu) Dialah yang menurunkan ketenangan ke dalam hati orang-orang yang beriman (semasa mereka meradang terhadap angkara musuh) supaya keimanan dan keyakinan mereka bertambah di samping keimanan dan keyakinan mereka yang telah sedia ada". (Surah Al-Fath, Ayat 4).', 'isBold': false, 'isArabic': false},
+      {'text': 'Iman itu bertambah apabila bertambahnya ketaatan dan pendekatan diri seseorang kepada Allah dan iman akan berkurang apabila kurang amalan dan pendekatan diri seseorang kepada Allah, demikian juga dengan maksiat, ia akan mengurangkan kesempurnaan iman. Apabila perbuatan syirik yang besar atau perbuatan kufur yang besar dilakukan maka terungkailah asas iman menurut syarak dan terbatallah iman seseorang itu, manakala sekiranya perbuatan syirik kecil dilakukan maka ianya merosakkan kesempurnaan iman yang wajib atau mengeruhkan kemurniannya serta melemahkannya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Sesungguhnya Allah tidak akan mengampunkan dosa syirik (mempersekutukan)-Nya (dengan sesuatu yang lain) dan akan mengampunkan dosa yang lain dari itu bagi sesiapa yang dikehendaki-Nya". (Surah An-Nisa\', Ayat 48).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Mereka bersumpah dengan nama Allah bahawa mereka tidak mengatakan (sesuatu yang buruk terhadapmu), padahal sesungguhnya mereka telah mengatakan kufur dan mereka pula menjadi kafir sesudah (melahirkan) Islam". (Surah At-Taubah, Ayat 74).', 'isBold': false, 'isArabic': false},
       {'text': 'Sabda Nabi s.a.w:', 'isBold': true, 'isArabic': false},
-      {'text': hadithArabic2, 'isBold': false, 'isArabic': true},
-      {'text': hadithTranslation2, 'isBold': false, 'isArabic': false},
+      {'text': 'لا يزني الزاني حين يزني وهو مؤمن، ولا يسرق السارق حين يسرق وهو مؤمن، ولا يشرب الخمر حين شربها وهو مؤمن . [ متفق عليه ].', 'isBold': false, 'isArabic': true},
+      {'text': '"Tidak berzina seorang penzina ketika melakukan zina dalam keadaan dia beriman, tidak mencuri seorang pencuri ketika mencuri dalam keadaan dia beriman dan tidak minum arak seseorang ketika meminumnya dalam keadaan dia beriman". (Hadith Muttafaq \'Alaih: Al-Bukhari dan Muslim)', 'isBold': false, 'isArabic': false},
+    ];
+  }
+
+  static List<Map<String, dynamic>> getRukunImanPertamaFormatted() {
+    return [
+      {'text': 'A – TAHKIK (PERLAKSANAAN) NYA', 'isBold': true, 'isArabic': false},
+      {'text': 'Beriman kepada Allah akan terlaksana dengan melakukan perkara-perkara berikut:', 'isBold': false, 'isArabic': false},
+      {'text': '1. Iktiqad (Percaya) Bahawa Alam Ini Mempunyai Pencipta Yang Satu', 'isBold': true, 'isArabic': false},
+      {'text': 'Iktiqad (percaya) bahawa alam ini mempunyai Pencipta yang satu, Esa dalam penciptaan-Nya, kerajaan-Nya, pentadbiran-Nya, mengatur keadaannya, memberi rezeki, kuasa, melakukan sesuatu, menghidupkan, mematikan, memberi manfaat dan mudharat yang tiada tuhan selain dari-Nya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Melakukan segala perkara dengan keesaan-Nya dan menghukum dengan hukuman yang dikehendaki-Nya, memuliakan sesiapa yang dikehendaki dan menghina sesiapa yang dikehendaki-Nya. Di tangan-Nya kekuasaan langit dan bumi dan Dia berkuasa ke atas semua perkara, mengetahui semua perkara, terkaya (tidak memerlukan) dari semua makhluk, bagi-Nya segala urusan, di tangan-Nya segala kebaikan, tidak ada sekutu dalam perbuatan-Nya, tidak ada yang boleh mengatasi semua urusan-Nya bahkan semua makhluk termasuk malaikat, manusia dan jin adalah hamba-Nya, tidak ada yang mampu keluar dari kerajaan, kekuasaan dan kehendak-Nya Yang Maha Suci.', 'isBold': false, 'isArabic': false},
+      {'text': 'Perbuatan-Nya tidak terhad, tidak terbilang banyaknya. Semua keistimewaan tersebut adalah kepunyaan Allah, tidak ada sekutu bagi-Nya, tidak berhak seorang pun selain daripada-Nya dan tidak harus menisbahkan atau mengisbatkan sesuatu darinya kepada pencipta yang lain daripada Allah \'Azza Wajalla.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Wahai sekalian manusia! Beribadatlah kepada Tuhan kamu yang telah menciptakan kamu dan orang-orang yang terdahulu daripada kamu, supaya kamu (menjadi orang-orang yang) bertakwa. Dialah yang menjadikan bumi ini untuk kamu sebagai hamparan dan langit (serta segala isinya) seperti bangunan (yang dibina dengan kukuhnya) dan Dialah yang menurunkan air hujan dari langit, lalu dikeluarkan-Nya dengan air itu berjenis-jenis buah-buahan yang menjadi rezeki bagi kamu". (Surah Al-Baqarah, ayat 21-22).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Katakanlah (wahai Muhammad), wahai Tuhan Yang Mempunyai kuasa pemerintahan, Engkaulah yang memberikan kuasa pemerintahan kepada sesiapa yang Engkau kehendaki dan Engkaulah yang mencabut kuasa pemerintahan daripada sesiapa yang Engkau kehendaki. Engkaulah juga yang memuliakan sesiapa yang Engkau kehendaki. Dan Engkaulah yang menghinakan sesiapa yang Engkau kehendaki. Dalam kekuasaan Engkaulah sahaja adanya segala kebaikan. Sesungguhnya Engkau amat berkuasa atas tiap-tiap sesuatu". (Surah Ali \'Imran, ayat 26).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan tiadalah sesuatupun daripada makhluk-makhluk yang bergerak di atas muka bumi melainkan Allah jualah yang menanggung rezekinya dan mengetahui tempat kediamannya dan tempat ia disimpan. Semuanya itu tersurat di dalam kitab ("Lauh Mahfuz") yang nyata (kepada malaikat-malaikat yang berkenaan)". (Surah Hud, ayat 6).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Ingatlah, bagi Allah jualah segala urusan menciptakan (sekalian makhluk) dan urusan pemerintahan. Maha Suci Allah yang menciptakan dan mentadbirkan sekalian alam". (Surah Al-A\'raf, ayat 54).', 'isBold': false, 'isArabic': false},
+      {'text': '2. Iktiqad Dengan Nama-Nama Yang Indah Dan Sifat-Sifat Yang Sempurna', 'isBold': true, 'isArabic': false},
+      {'text': 'Beriktiqad (percaya) dengan keesaan Allah dengan nama-nama yang seindah-indahnya dan sesempurna sifat-sifat yang diperkenalkan kepada hamba-hamba-Nya yang sebahagiannya terdapat dalam kitab-Nya (Al-Quran) atau Sunnah Nabi Muhammad s.a.w.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan Allah mempunyai nama-nama yang baik (yang mulia) oleh itu serukanlah (dan berdoalah) kepada-Nya dengan menyebut nama-nama itu dan tinggalkanlah orang-orang yang berpaling daripada kebenaran dalam masa menggunakan nama-nama-Nya. Mereka akan mendapat balasan daripada perbuatan yang telah mereka kerjakan". (Surah Al-A\'raf, ayat 180).', 'isBold': false, 'isArabic': false},
+      {'text': 'Sabda Nabi s.a.w:', 'isBold': false, 'isArabic': false},
+      {'text': 'إن لله تسعة وتسعين اسماً، من أحصاها دخل الجنة، وهو وتر يحب الوتر [متفق عليه]', 'isBold': false, 'isArabic': true},
+      {'text': '"Sesungguhnya bagi Allah 99 nama. Sesiapa yang menghitungnya masuk syurga. Dan Allah adalah "witir" (tunggal) dan Dia suka kepada witir (bilangan ganjil)". (Muttafaq \'Alaih: Al-Bukhari dan Muslim).', 'isBold': false, 'isArabic': false},
+      {'text': 'a) Iktiqad (kepercayaan) ini tertegak di atas dua asas yang utama:', 'isBold': true, 'isArabic': false},
+      {'text': 'i) Sesungguhnya Allah mempunyai nama-nama yang indah dan sifat-sifat yang tinggi yang menunjukkan atas sifat-sifat yang sempurna, tidak ada sesuatu kekurangan pada-Nya dalam semua perkara, tidak menyerupai-Nya oleh sesuatu dan tidak ada yang menyengutui-Nya daripada makhluk-Nya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Sebahagian daripada nama-Nya "Al-Hayyu" (Yang Maha Hidup) dan Dia mempunyai sifat "Hayat" (hidup) yang wajib disabitkan kepada Allah dengan sesempurnanya menurut yang layak bagi-Nya. Hidup ini ialah hidup yang sempurna dan abadi, berhimpun padanya semua jenis kesempurnaan yang terdiri daripada ilmu, kudrat dan lainnya, tidak pernah didahului oleh tiada dan tidak akan diikuti oleh fana (kemusnahan).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Allah, tiada tuhan yang berhak disembah melainkan Dia, Yang tetap hidup, kekal mentadbir (sekalian makhluk) selama-lamanya. Yang tidak mengantuk usahkan tidur". (Surah Al-Baqarah, Ayat 255).', 'isBold': false, 'isArabic': false},
+      {'text': 'ii) Sesungguhnya Allah Taala suci daripada semua sifat kekurangan dan semua cacat cela, seperti tidur, lemah, jahil, zalim dan lain-lain. Demikian juga Allah Taala suci daripada sebarang bentuk persamaan dengan semua makhluk. Maka wajib dinafikan semua perkara yang Allah nafikan daripada diri-Nya dan dinafikan oleh Rasulullah s.a.w daripada Tuhannya serta beriktikad bahawa Allah bersifat dengan sempurna, bercanggah dengan segala sifat yang dinafikan daripada-Nya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Apabila kita menafikan daripada Allah sifat mengantuk dan tidur bererti kita telah mengisbatkan kepada-Nya sempurna kekuasaan-Nya. Dengan menafikan sifat tidur bererti kita mengisbatkan kepada-Nya sempurna hidup. Demikianlah semua sifat yang dinafikan daripada Allah ianya mengandungi isbat sifat kesempurnaan di sebaliknya, Dialah Yang Maha Sempurna dan selain daripada-Nya adalah bersifat kurang.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Tiada sesuatupun yang sebanding dengan (Zat-Nya, sifat-sifat-Nya dan pentadbiran-Nya) dan Dialah Yang Maha Mendengar, lagi Maha Melihat". (Surah Asy-Syura, ayat 11).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan Tuhanmu tidak sekali-kali berlaku zalim terhadap hamba-Nya". (Surah Fussilat, ayat 46).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan (sudah tetap) bahawa kekuasaan Allah tidak dapat dilemahkan atau dihalangi oleh sesuatupun sama ada di langit atau di bumi, sesungguhnya Dia Amatlah Mengetahui lagi Amat Berkuasa". (Surah Fathir, Ayat 44).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan tiadalah Tuhanmu itu lupa". (Surah Maryam, Ayat 64).', 'isBold': false, 'isArabic': false},
+      {'text': 'Beriman dengan nama-nama Allah, sifat-sifat-Nya dan perbuatan-Nya merupakan satu-satunya jalan untuk mengenali Allah dan beribadat kepada-Nya. Oleh kerana Allah tidak dapat dilihat oleh makhluk semasa hidup di dunia dengan penglihatan mata maka dibuka bagi mereka pintu ilmu yang membolehkan mereka mengenali Tuhan, "Ilah" yang mereka sembah. Mereka menyembah Allah berdasarkan pengetahuan yang sahih dan sempurna.', 'isBold': false, 'isArabic': false},
+      {'text': 'b) Perkara yang perlu diambil kira dalam mengisbatkan nama-nama Allah yang indah.', 'isBold': true, 'isArabic': false},
+      {'text': 'Dalam mengisbatkan nama-nama Allah yang indah perkara-perkara berikut perlu diambil kira:', 'isBold': false, 'isArabic': false},
+      {'text': 'i) Beriman dengan sabitnya semua nama-nama Allah yang indah yang tersebut dalam Al-Quran dan As-Sunnah dengan tidak menambah atau mengurangkannya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dialah Allah, yang tidak ada Tuhan melainkan Dia, Yang Menguasai (sekalian alam), Yang Maha Suci, Yang Maha Selamat Sejahtera (daripada segala kekurangan), Yang Maha Melimpahkan Keamanan, Yang Maha Pengawal serta Pengawas, Yang Maha Kuasa, Yang Maha Kuat (menundukkan segala-galanya), Yang Melengkapi segala Kebesaran-Nya. Maha Suci Allah daripada segala yang mereka sekutukan dengan-Nya". (Surah Al-Hasyr, Ayat 23).', 'isBold': false, 'isArabic': false},
+      {'text': 'Telah sabit dalam As-Sunnah bahawa Nabi s.a.w telah mendengar seorang lelaki berkata:', 'isBold': false, 'isArabic': false},
+      {'text': 'اللهم إني أسألك بأن لك الحمد، لا إله إلا أنت، المنان، بديع السموات والأرض، يا ذا الجلال والإكرام، يا الحي يا القيوم', 'isBold': false, 'isArabic': true},
+      {'text': 'Sabda Nabi s.a.w: "Kamu tahukah apa yang beliau doakan kepada Allah?". Jawab Sahabat: "Hanya Allah dan Rasul-Nya yang mengetahui". Sabdanya: "Demi Allah Yang diriku dikuasai tangan-Nya, sesungguhnya dia telah berdoa kepada Allah dengan nama-Nya yang agung sekiranya didoakan dengannya maka dikabulkan-Nya dan jika dipinta dengannya maka diberikan-Nya". (Hadith Riwayat Abu Daud dan Ahmad).', 'isBold': false, 'isArabic': false},
+      {'text': 'ii) Beriman bahawa Allah Taala yang menamakan diri-Nya dan bukan dinamakan oleh seorang pun daripada makhluk-Nya. Dialah \'Azza Wajalla yang telah memuji diri-Nya dengan nama-nama ini, bukan nama yang baru dijadikan.', 'isBold': false, 'isArabic': false},
+      {'text': 'iii) Beriman bahawa nama-nama Allah yang indah itu menunjukkan pengertian yang cukup sempurna, yang tidak ada sebarang kekurangan padanya. Maka wajib beriman dengan semua pengertian yang tersebut sepertimana wajib beriman dengan semua nama-nama-Nya.', 'isBold': false, 'isArabic': false},
+      {'text': 'iv) Wajib menghormati pengertian yang terkandung dalam nama-nama-Nya dan jangan sekali-kali melakukan sebarang perubahan dan menafikannya.', 'isBold': false, 'isArabic': false},
+      {'text': 'v) Beriman dengan semua tuntutan yang terkandung dalam nama-nama-Nya yang terdiri daripada hukum-hukum dan perkara yang bersangkutan dengannya daripada perbuatan dan kesan-kesannya.', 'isBold': false, 'isArabic': false},
+      {'text': 'c) Perkara yang perlu diambilkira dalam mengisbat sifat-sifat Allah', 'isBold': true, 'isArabic': false},
+      {'text': 'Dalam mengisbat sifat-sifat Allah, perkara-perkara berikut perlu diambil kira:', 'isBold': false, 'isArabic': false},
+      {'text': 'i) Isbat semua sifat-sifat yang tersebut dalam Al-Quran dan As-Sunnah bagi Allah Taala secara hakiki dengan tidak melakukan sebarang perubahan atau menafikannya.', 'isBold': false, 'isArabic': false},
+      {'text': 'ii) Iktikad yang tetap bahawa Allah Taala bersifat dengan sifat-sifat yang sempurna dan suci daripada semua sifat-sifat kekurangan atau cacat cela.', 'isBold': false, 'isArabic': false},
+      {'text': 'iii) Tidak membuat persamaan sifat-sifat Allah dengan sifat-sifat semua makhluk, kerana Allah s.w.t. tiada sesuatupun yang sebanding dengan sifat-sifat-Nya atau perbuatan-Nya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Tiada sesuatupun yang sebanding dengan (Zat-Nya, sifat-sifat-Nya dan pentadbiran-Nya) dan Dialah Yang Maha Mendengar, lagi Maha Melihat". (Surah Asy-Syura, Ayat 11).', 'isBold': false, 'isArabic': false},
+      {'text': 'iv) Tidak ada kemungkinan langsung untuk mengetahui "kaifiat" (bagaimana) sifat-sifat Allah kerana tidak ada jalan bagi makhluk untuk mengetahuinya.', 'isBold': false, 'isArabic': false},
+      {'text': 'v) Beriman dengan semua perkara yang terkandung dalam semua sifat-sifat Allah dari segi hukum dan semua tuntutan daripada kesan-kesan beriman dengan sifat-sifat Allah Taala tersebut, maka semua sifat mengandungi "\'Ubudiyyah" (perhambaan kepada Allah).', 'isBold': false, 'isArabic': false},
+      {'text': '3. Iktiqad Bahawa Allah Ialah "Ilah" (Tuhan) Yang Sebenar', 'isBold': true, 'isArabic': false},
+      {'text': 'Iktikad bahawa Allah ialah "Ilah" (Tuhan) yang sebenar yang benar-benar berhak disembah secara zahir dan batin, Yang Esa, tiada sekutu bagi-Nya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan sesungguhnya Kami telah mengutuskan kepada setiap umat seorang Rasul (dengan memerintahkannya supaya menyeru mereka): Hendaklah kamu menyembah Allah dan jauhilah taghut". (Surah An-Nahl, Ayat 36).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Padahal mereka tidak diperintahkan melainkan supaya menyembah Allah dengan mengikhlaskan ibadat kepada-Nya, dalam keadaan teguh di atas tauhid". (Surah Al-Bayyinah, Ayat 5).', 'isBold': false, 'isArabic': false},
+      {'text': 'Sabda Nabi s.a.w kepada Mu\'az r.a.:', 'isBold': false, 'isArabic': false},
+      {'text': 'أتدري ما حق الله على العباد، وما حق العباد على الله؟ قلت: الله ورسوله أعلم. قال حق الله على العباد أن يعبدوه ولا يشركوا به شيئاً، وحق العباد على الله ألا يعذب من لا يشرك به شيئا', 'isBold': false, 'isArabic': true},
+      {'text': '"Adakah kamu tahu apakah hak Allah ke atas hamba-Nya dan hak seorang hamba ke atas Allah?". Jawab Mu\'az: "Hanya Allah dan Rasul-Nya yang mengetahui". Sabdanya: "Hak Allah ke atas hamba-Nya ialah mereka mesti menyembah-Nya dan jangan sekali-kali melakukan syirik terhadap-Nya dengan sesuatupun dan hak seorang hamba ke atas Allah ialah tidak mengazab mereka yang tidak melakukan syirik terhadap-Nya dengan sesuatu".', 'isBold': false, 'isArabic': false},
+      {'text': '"Ilah" (Tuhan) yang sebenar: Ialah Tuhan tempat bergantung hati kepada-Nya dengan penuh kasih sayang (mahabbah) lebih daripada semua yang lain, hanya meletakkan pengharapan kepada-Nya dan cukuplah meminta kepada-Nya, memohon bantuan daripada-Nya, takut dan gerun kepada-Nya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Bersifatnya Allah dengan kekuasaan dan luas ilmu pengetahuan itu kerana bahawasanya Allah, Dialah sahaja Tuhan Yang Sebenar-benarnya dan bahawa segala yang mereka sembah selain daripada Allah itulah yang nyata palsunya dan (ingatlah) sesungguhnya Allah jualah Yang Maha Tinggi keadaan-Nya, lagi Maha Besar (kekuasaan-Nya)". (Surah Al-Haj, Ayat 62).', 'isBold': false, 'isArabic': false},
+      {'text': '4. Kepentingan Tauhid', 'isBold': true, 'isArabic': false},
+      {'text': 'Kepentingan tauhid dapat diperjelaskan melalui perkara-perkara berikut:', 'isBold': false, 'isArabic': false},
+      {'text': 'a- Tauhid adalah merupakan asas pertama agama ini, matlamatnya, akhirnya, zahirnya dan batinnya dan ianya merupakan dakwah (seruan) semua rasul (ke atas mereka semua kesejahteraan).', 'isBold': false, 'isArabic': false},
+      {'text': 'b- Kerana tauhid ini Allah menciptakan makhluk, mengutuskan rasul-rasul dan menurunkan kitab-kitab. Kerananya berselisih pendapat di kalangan makhluk dan berpecah kepada golongan mukmin dan kafir dan golongan yang bertuah dan celaka.', 'isBold': false, 'isArabic': false},
+      {'text': 'c- Tauhid ialah perkara pertama yang wajib ke atas seorang "mukallaf" (akil baligh), juga yang pertama membawa seorang hamba memasuki pintu Islam dan yang terakhir bersamanya ketika keluar dari alam kehidupan dunia.', 'isBold': false, 'isArabic': false},
+      {'text': '5. Tahkik (Perlaksanaan) Tauhid', 'isBold': true, 'isArabic': false},
+      {'text': 'Melaksanakan tauhid: Ialah membersih dan memurnikannya daripada sebarang bentuk syirik, bid\'ah (rekaan, tambahan terhadap ajaran agama) dan maksiat. Ianya terbahagi kepada dua bahagian: wajib dan sunat.', 'isBold': false, 'isArabic': false},
+      {'text': 'a – Wajib terdiri daripada tiga perkara:', 'isBold': false, 'isArabic': false},
+      {'text': 'i. Membersihkannya daripada perbuatan syirik yang menafikan asas tauhid.', 'isBold': false, 'isArabic': false},
+      {'text': 'ii. Membersihkannya daripada perbuatan bid\'ah yang menafikan, a) kesempurnaan perkara yang wajib atau, b) menafikan asas tauhid jika ianya terdiri daripada bid\'ah yang membawa kepada kekufuran.', 'isBold': false, 'isArabic': false},
+      {'text': 'iii. Membersihkannya daripada semua bentuk maksiat yang mengurangkan pahala atau memberi kesan kepadanya.', 'isBold': false, 'isArabic': false},
+      {'text': 'b – Sunat ialah perkara-perkara yang disuruh melakukannya secara "istihbab" (tidak wajib), antara contohnya ialah seperti berikut:', 'isBold': false, 'isArabic': false},
+      {'text': 'i) Tahkik (merealisasikan) kesempurnaan martabat ihsan (menyembah Allah seolah-olah melihat-Nya).', 'isBold': false, 'isArabic': false},
+      {'text': 'ii) Tahkik (merealisasikan) kesempurnaan martabat yakin.', 'isBold': false, 'isArabic': false},
+      {'text': 'iii) Tahkik (merealisasikan) kesempurnaan sifat sabar, iaitu dengan tidak membuat sebarang pengaduan kepada makhluk selain daripada Allah.', 'isBold': false, 'isArabic': false},
+      {'text': 'iv) Tahkik (merealisasikan) kesempurnaan rasa terkaya, memadai dengan hanya memohon kepada Allah Taala, tidak meminta sebarang permohonan daripada makhluk.', 'isBold': false, 'isArabic': false},
+      {'text': 'v) Tahkik (merealisasikan) kesempurnaan martabat tawakkal, iaitu dengan meninggalkan beberapa perkara yang harus seperti meminta supaya dijampi, hanya bertawakkal kepada Allah Taala.', 'isBold': false, 'isArabic': false},
+      {'text': 'vi) Tahkik (merealisasikan) kesempurnaan martabat mahabbah (kasih dan cinta) kepada Allah dengan melakukan amalan-amalan sunat.', 'isBold': false, 'isArabic': false},
+      {'text': 'Sesiapa yang telah melaksanakan tuntutan tauhid seperti yang tersebut di atas serta selamat (terjaga) daripada melakukan syirik yang besar (perbuatan kufur) juga yang kecil serta menjauhkan diri daripada dosa-dosa besar dan maksiat, maka dia akan mendapat keamanan yang sempurna di dunia dan di akhirat.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Sesungguhnya Allah tidak akan mengampunkan dosa syirik mempersekutukan-Nya (dengan sesuatu yang lain) dan akan mengampunkan dosa yang lain dari itu bagi sesiapa yang dikehendaki-Nya (menurut aturan Syariat-Nya)". (Surah An-Nisa\', Ayat 48).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Orang-orang yang beriman dan tidak mencampur-adukkan iman mereka dengan kezaliman (syirik), mereka itulah orang-orang yang mendapat keamanan dan merekalah orang-orang yang mendapat hidayat petunjuk". (Surah Al-An\'am, Ayat 82).', 'isBold': false, 'isArabic': false},
+      {'text': '6. Perkara Yang Bertentangan Dengan Tauhid Ialah Syirik', 'isBold': true, 'isArabic': false},
+      {'text': 'Perkara yang bertentangan dengan tauhid ialah syirik (menyengutukan Allah dengan makhluk), ianya terbahagi kepada tiga bahagian:', 'isBold': false, 'isArabic': false},
+      {'text': 'a) Syirik yang besar, yang menafikan asas tauhid, tidak diampunkan oleh Allah kecuali dengan bertaubat meninggalkannya (kembali kepada Islam). Sesiapa yang mati dalam keadaan syirik akan kekal di dalam neraka selama-lamanya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Sesiapa yang mempersekutukan Allah dengan sesuatu yang lain, maka sesungguhnya Allah haramkan kepadanya syurga dan tempat kembalinya ialah neraka dan tiadalah seorang penolong pun bagi orang-orang yang berlaku zalim". (Surah Al-Maidah, Ayat 72).', 'isBold': false, 'isArabic': false},
+      {'text': 'b) Syirik kecil yang menafikan kesempurnaan tauhid, iaitu setiap perkara yang boleh membawa kepada syirik besar, seperti bersumpah dengan lain daripada nama Allah dan perbuatan riya\' yang sedikit.', 'isBold': false, 'isArabic': false},
+      {'text': 'c) Syirik tersembunyi (khafi), iaitu perbuatan yang bersangkut dengan niat dan amalan hati, kadang-kadang ianya menjadi syirik besar dan adakalanya syirik kecil.', 'isBold': false, 'isArabic': false},
+      {'text': 'Dari Mahmud bin Labid r.a. Rasulullah s.a.w bersabda:', 'isBold': false, 'isArabic': false},
+      {'text': 'إن أخوف ما أخاف عليكم الشرك الأصغر، قالوا وما الشرك الأصغر يا رسول الله ؟ قال: الرياء . [رواه الإمام أحمد]', 'isBold': false, 'isArabic': true},
+      {'text': '"Sesungguhnya perkara yang aku sangat takuti menimpa kamu ialah syirik kecil". Sahabat bertanya: "Apakah syirik kecil itu wahai Rasulullah?". Sabdanya: "Riya\'". (Hadith Riwayat Imam Ahmad).', 'isBold': false, 'isArabic': false},
+      {'text': 'B – PENGERTIAN IBADAT', 'isBold': true, 'isArabic': false},
+      {'text': 'Ibadat ialah satu nama yang meliputi semua perkara yang disukai oleh Allah serta diredhai-Nya iaitu dari segi \'akidah (pegangan atau iktikad), amalan hati, amalan anggota dan semua amalan yang mendekatkan diri kepada Allah daripada perbuatan-perbuatan yang wajib dilakukan dan perbuatan-perbuatan yang wajib ditinggalkan.', 'isBold': false, 'isArabic': false},
+      {'text': '1. Tidak Sah Sesuatu Ibadat Kecuali Dibina Di Atas Dua Landasan:', 'isBold': true, 'isArabic': false},
+      {'text': 'a – Mengikhlaskan ibadat kepada Allah dan tidak melakukan syirik terhadapnya. Inilah makna syahadah (pengakuan) "La ilaha illallah" (Tiada tuhan yang berhak disembah melainkan Allah).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Padahal mereka tidak diperintahkan melainkan supaya menyembah Allah dengan mengikhlaskan ibadat kepada-Nya, dalam keadaan teguh di atas tauhid". (Surah Al-Bayyinah, Ayat 5).', 'isBold': false, 'isArabic': false},
+      {'text': 'b – Mengikut ajaran yang dibawa oleh Rasulullah s.a.w dengan melakukannya sebagaimana yang telah dilakukan oleh Nabi s.a.w tanpa membuat sebarang penambahan atau pengurangan. Inilah makna syahadah (pengakuan) Muhammad Rasulullah.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Katakanlah (wahai Muhammad): Jika benar kamu mengasihi Allah maka ikutilah aku, nescaya Allah mengasihi kamu serta mengampunkan dosa-dosa kamu". (Surah Ali \'Imran, Ayat 31).', 'isBold': false, 'isArabic': false},
+      {'text': '2. "\'Ubudiyyah" (Perhambaan) Yang Sempurna Tidak Akan Terlaksana Kecuali Dengan Dua Perkara:', 'isBold': true, 'isArabic': false},
+      {'text': 'a) Mahabbah atau cintakan Allah dengan sepenuhnya, iaitu dengan mendahulukan mahabbah atau cinta kepada Allah mengatasi cinta kepada semua yang lain.', 'isBold': false, 'isArabic': false},
+      {'text': 'b) Tunduk, patuh dan menghina diri kepada Allah, iaitu dengan melaksanakan semua tuntutan dan menjauhkan diri daripada semua larangan Allah.', 'isBold': false, 'isArabic': false},
+      {'text': 'C – DALIL-DALIL SERTA TANDA KEESAAN ALLAH', 'isBold': true, 'isArabic': false},
+      {'text': 'Dalil atau tanda keesaan Allah Taala sangat banyak. Sesiapa yang memerhatikannya serta merenunginya maka akan teguh ilmunya serta bertambah keyakinannya terhadap keesaan Allah Taala dalam mentadbir serta "wahdaniyyah" (keesaan) Allah pada perbuatan-Nya, nama-nama-Nya, sifat-sifat-Nya dan "Uluhiyyah" (ketuhanan)-Nya.', 'isBold': false, 'isArabic': false},
+      {'text': '1) Agungnya kejadian alam semesta ini. Sesiapa yang memerhatikannya serta berfikir tentang kejadiannya akan berasa yakin dengan "wahdaniyyah" (keesaan) Allah kerana halus seni ciptaannya, pelbagai jenis makhluk terdapat di dalamnya dan sistem perjalanannya yang teratur.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan Kami telah jadikan di bumi gunung-ganang yang menetapnya, supaya bumi itu tidak menggegar mereka dan Kami jadikan padanya celah-celah sebagai jalan-jalan lalu-lalang, supaya mereka dapat sampai kepada mencapai keperluan rohani dan jasmani". (Surah Al-Anbiya\', Ayat 31-33).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan antara tanda-tanda yang membuktikan kekuasaan-Nya dan kebijaksanaan-Nya ialah kejadian langit dan bumi dan perbezaan bahasa kamu dan warna kulit kamu. Sesungguhnya yang demikian itu mengandungi keterangan-keterangan bagi orang-orang yang berpengetahuan". (Surah Ar-Rum, Ayat 22).', 'isBold': false, 'isArabic': false},
+      {'text': '2) Ajaran syariat yang telah Allah utuskan melalui rasul-rasul dan dikuatkan pula ajaran tersebut dengan tanda-tanda keterangan yang menunjukkan kepada "wahdaniyyah" serta keesaan Allah Taala untuk disembah.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Katakanlah (wahai Muhammad): Sesungguhnya sekiranya sekalian manusia dan jin berhimpun dengan tujuan hendak membuat dan mendatangkan sebanding dengan Al-Quran ini, mereka tidak akan dapat membuat dan mendatangkan yang sebanding dengannya, walaupun mereka bantu-membantu sesama sendiri". (Surah Al-Isra\', Ayat 88).', 'isBold': false, 'isArabic': false},
+      {'text': '3) Fitrah kejadian manusia yang telah Allah jadikan dalam hati hamba-hamba-Nya mengakui keesaan Tuhan, ianya merupakan suatu perkara yang telah tetap dalam diri manusia.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "(Setelah jelas kesesatan syirik itu) maka hadapkanlah dirimu (engkau dan pengikut-pengikutmu, wahai Muhammad) ke arah agama yang jauh dari kesesatan, (turutlah terus) agama Allah, iaitu agama yang Allah menciptakan manusia (dengan keadaan bersedia dari semulajadinya) untuk menerimanya". (Surah Ar-Rum, Ayat 30-31).', 'isBold': false, 'isArabic': false},
+      {'text': 'Sabda Nabi s.a.w:', 'isBold': false, 'isArabic': false},
+      {'text': 'كل مولود يولد على الفطرة، فأبواه يهودانه أو ينصرانه أو يمجسانه [رواه البخاري]', 'isBold': false, 'isArabic': true},
+      {'text': '"Setiap anak yang dilahirkan itu dalam keadaan fitrah (suci bersih), kedua ibu bapanyalah yang mencorakkanya menjadi Yahudi atau Nasrani atau Majusi". (Hadith Riwayat Al-Bukhari).', 'isBold': false, 'isArabic': false},
+    ];
+  }
+
+  static List<Map<String, dynamic>> getRukunImanKeduaFormatted() {
+    return [
+      {'text': 'A – PENGERTIAN', 'isBold': true, 'isArabic': false},
+      {'text': 'Beriman dengan Malaikat: Ialah iktikad dengan sepenuh keyakinan bahawa Allah mempunyai malaikat yang dijadikan daripada cahaya yang telah ditentukan untuk melakukan ketaatan, tidak melakukan sebarang maksiat terhadap Allah dan melaksanakan semua arahan yang diperintahkan, mereka sentiasa bertasbih kepada Allah malam dan siang dengan tidak pernah berasa jemu. Tidak diketahui bilangan mereka kecuali Allah. Allah telah menetapkan ke atas mereka tugas dan tanggungjawab yang bermacam-macam.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "…tetapi kebajikan itu ialah beriman kepada Allah, Hari Akhirat dan para malaikat…". (Surah Al-Baqarah, Ayat 177).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Semuanya beriman kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya dan rasul-rasul-Nya. Mereka berkata: Kami tidak membezakan antara seorang dengan yang lain dari rasul-rasul-Nya". (Surah Al-Baqarah, Ayat 285).', 'isBold': false, 'isArabic': false},
+      {'text': 'Tersebut dalam hadith Jibrail yang masyhur: Sewaktu Jibrail (dengan menyerupai manusia) datang bertanya kepada Rasulullah s.a.w tentang Islam, Iman dan Ihsan. Katanya: "Beritahu kepada saya pengertian iman".', 'isBold': false, 'isArabic': false},
+      {'text': 'Sabda Nabi s.a.w:', 'isBold': false, 'isArabic': false},
+      {'text': 'أن تؤمن بالله، وملائكته، وكتبه، ورسله، واليوم الآخر، وأن تؤمن بالقدر خيره وشره', 'isBold': false, 'isArabic': true},
+      {'text': '"Hendaklah engkau beriman dengan Allah, para malaikat-Nya, kitab-kitab-Nya, rasul-rasul-Nya dan Hari Akhirat serta Qadar (untung) baik dan yang tidak baik".', 'isBold': false, 'isArabic': false},
+      {'text': 'Para ulama\' telah berijma\' (bersepakat) tentang kewajipan beriman dengan para malaikat. Sesiapa yang mengingkari kewujudan mereka atau sebahagian daripada mereka seperti mana yang disebut oleh Allah Taala, hukumnya adalah kafir serta bercanggah dengan Al-Quran, As-Sunnah dan ijma\' ulama\'.', 'isBold': false, 'isArabic': false},
+      {'text': 'Kedudukan Beriman Kepada Malaikat Di Sisi Agama Serta Hukumnya', 'isBold': true, 'isArabic': false},
+      {'text': 'Beriman kepada malaikat ialah rukun kedua daripada Rukun Iman yang enam. Tidak sah dan tidak diterima iman seorang hamba itu melainkan beriman dengannya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Sesiapa yang kufur kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya dan rasul-rasul-Nya juga Hari Akhirat, maka sesungguhnya ia telah sesat dengan kesesatan yang sejauh-jauhnya". (Surah An-Nisa\', Ayat 136).', 'isBold': false, 'isArabic': false},
+      {'text': 'B – CARA BERIMAN DENGAN MALAIKAT', 'isBold': true, 'isArabic': false},
+      {'text': 'Beriman dengan malaikat secara umum dan terperinci.', 'isBold': false, 'isArabic': false},
+      {'text': '1. Beriman Dengan Malaikat Secara Umum Mengandungi Perkara Berikut:', 'isBold': true, 'isArabic': false},
+      {'text': 'a) Mengakui kewujudan mereka', 'isBold': true, 'isArabic': false},
+      {'text': 'Mereka adalah makhluk ciptaan Allah yang diciptakan untuk beribadat kepada-Nya. Kewujudan mereka adalah hakiki. Kita tidak dapat melihat mereka bukan bermakna mereka tidak wujud, buktinya berapa banyak makhluk lain dalam alam ini yang kita tidak nampak, sedangkan ianya memang wujud.', 'isBold': false, 'isArabic': false},
+      {'text': 'Sesungguhnya Nabi s.a.w telah melihat rupa asli Jibrail a.s sebanyak dua kali. Para Sahabat r.hum telah melihat sebahagian daripada malaikat yang menyerupai manusia.', 'isBold': false, 'isArabic': false},
+      {'text': 'Imam Ahmad telah meriwayatkan dalam Musnadnya daripada Abdullah bin Mas\'ud r.a. katanya:', 'isBold': false, 'isArabic': false},
+      {'text': 'رأى رسول الله صلى الله عليه وسلم جبريل في صورته وله ستمائة جناح، وكل جناح منها قد سدّ الأفق', 'isBold': false, 'isArabic': true},
+      {'text': '"Rasulullah s.a.w. telah melihat Jibrail dengan rupanya yang asli, mempunyai 600 sayap, setiap helai sayapnya memenuhi ufuk".', 'isBold': false, 'isArabic': false},
+      {'text': 'Telah sabit dalam hadith Jibrail yang masyhur yang diriwayatkan oleh Imam Muslim: Bahawa Jibrail a.s datang bertemu Rasulullah s.a.w dengan menyerupai seorang lelaki yang sangat putih pakaiannya, sangat hitam rambutnya, tidak kelihatan padanya kesan kepenatan bermusafir sedangkan tiada seorang pun daripada kalangan Sahabat yang mengenalinya.', 'isBold': false, 'isArabic': false},
+      {'text': 'b) Meletakkan taraf kedudukannya pada tempat yang telah Allah tentukan kepada mereka', 'isBold': true, 'isArabic': false},
+      {'text': 'Mereka adalah hamba-hamba Allah yang diberi arahan (tugas). Allah telah memuliakan mereka dengan mengangkat martabat kedudukan yang hampir dengan-Nya. Sebahagian daripada mereka menjadi utusan menyampaikan wahyu. Mereka tidak berkuasa melakukan sesuatu perkara kecuali dengan kuasa yang Allah berikan kepada mereka. Mereka tidak memiliki kuasa untuk memberi manfaat atau memudharatkan diri mereka atau orang lain selain daripada kuasa Allah. Oleh itu tidak harus melakukan sebarang ibadat kepada mereka apa lagi menjadikan mereka memiliki beberapa sifat ketuhanan ("Ar-Rububiyyah") sebagaimana iktikad orang-orang Nasrani (Kristian) dengan Ruh Al-Qudus (Jibrail) a.s.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan mereka (yang musyrik) berkata: (Allah) Ar-Rahman mempunyai anak. Maha Sucilah Dia. Bahkan (mereka yang dikatakan menjadi anak Allah itu) ialah hamba-hamba-Nya yang dimuliakan. Mereka tidak mendahului-Nya dengan perkataan dan mereka pula mengerjakan apa yang diperintahkan-Nya". (Surah Al-Anbiya\', Ayat 26-27).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Mereka tidak menderhaka kepada Allah dalam segala yang diperintahkan-Nya kepada mereka dan mereka pula tetap melakukan segala yang diperintahkan". (Surah At-Tahrim, Ayat 6).', 'isBold': false, 'isArabic': false},
+      {'text': 'Inilah tahap keimanan yang wajib ke atas setiap muslim dan muslimah. Wajib ke atas mereka mempelajari dan mempercayainya serta mereka tidak dimaafkan jika jahil tentangnya.', 'isBold': false, 'isArabic': false},
+      {'text': '2. Huraian Mengenai Beriman Dengan Malaikat Secara Terperinci Adalah Seperti Berikut:', 'isBold': true, 'isArabic': false},
+      {'text': 'a) Asal Kejadian Malaikat', 'isBold': true, 'isArabic': false},
+      {'text': 'Allah s.w.t mencipta malaikat daripada cahaya sebagaimana Allah menjadikan jin daripada api dan anak Adam (manusia) daripada tanah. Malaikat telah dicipta sebelum dijadikan Adam a.s, tersebut di dalam hadith:', 'isBold': false, 'isArabic': false},
+      {'text': 'خلقت الملائكة من نور، وخلق الجان من مارج من نار، وخلق آدم مما وصف لكم [رواه مسلم]', 'isBold': false, 'isArabic': true},
+      {'text': '"Dijadikan malaikat daripada cahaya dan dijadikan jin daripada api yang menjulang serta dijadikan manusia daripada benda yang disifatkan kepada kamu (tanah)". (Hadith Riwayat Muslim).', 'isBold': false, 'isArabic': false},
+      {'text': 'b) Bilangan Malaikat', 'isBold': true, 'isArabic': false},
+      {'text': 'Malaikat ialah sejenis makhluk yang tidak terhingga banyaknya, tidak dapat dihitung bilangannya kecuali Allah sahajalah yang mengetahuinya. Tidak ada tempat seluas empat anak jari di langit kecuali ada malaikat yang sedang sujud atau berdiri (solat). Di Baitul Ma\'mur yang terletak di langit ketujuh, 70 ribu malaikat masuk setiap hari kemudian mereka yang telah masuk ke dalamnya tidak dapat kembali lagi (untuk memasukinya) kerana bilangannya terlalu ramai. Pada Hari Kiamat nanti akan dibawa neraka yang mempunyai 70 ribu tali penarik dan setiap tali ditarik oleh 70 ribu malaikat.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan tiada yang mengetahui tentera (malaikat) Tuhanmu melainkan Dialah sahaja". (Surah Al-Muddatthir, Ayat 31).', 'isBold': false, 'isArabic': false},
+      {'text': 'Tersebut dalam hadith, Nabi s.a.w bersabda:', 'isBold': false, 'isArabic': false},
+      {'text': 'أطَّت السماء وحق أن تَئِطَّ، ما فيها موضع قدم إلا وفيه ملك ساجد وراكع', 'isBold': false, 'isArabic': true},
+      {'text': '"Langit berbunyi dan memang patut ia berbunyi, tiada tempat sebesar tapak kaki melainkan ada di situ malaikat yang sedang sujud atau rukuk".', 'isBold': false, 'isArabic': false},
+      {'text': 'Sabda Nabi s.a.w tentang Baitul Ma\'mur:', 'isBold': false, 'isArabic': false},
+      {'text': 'يدخله في كل يوم سبعون ألف ملك لا يعودون إليه [رواه البخاري ومسلم]', 'isBold': false, 'isArabic': true},
+      {'text': '"70 ribu malaikat masuk setiap hari ke dalam Baitul Ma\'mur, kemudian mereka yang telah masuk tidak akan kembali lagi ke tempat itu". (Hadith Riwayat Al-Bukhari dan Muslim).', 'isBold': false, 'isArabic': false},
+      {'text': 'Sabda Nabi s.a.w:', 'isBold': false, 'isArabic': false},
+      {'text': 'يؤتى بجهنم يومئذٍ لها سبعون ألف زمام، مع كل زمام سبعون ألف ملك [رواه مسلم]', 'isBold': false, 'isArabic': true},
+      {'text': '"Pada Hari Kiamat nanti akan dibawa Neraka Jahannam yang mempunyai 70 ribu tali penarik dan setiap tali itu ditarik oleh 70 ribu malaikat". (Hadith Riwayat Muslim).', 'isBold': false, 'isArabic': false},
+      {'text': 'Dengan ini jelaslah kepada kita betapa banyaknya bilangan malaikat, bilangan mereka (yang menarik sebuah neraka) sahaja 4,900 juta malaikat, bagaimana dengan bilangan malaikat yang lain. Maha Suci Allah yang telah menciptakan malaikat dan mengetahui bilangannya.', 'isBold': false, 'isArabic': false},
+      {'text': 'c) Nama-Nama Malaikat', 'isBold': true, 'isArabic': false},
+      {'text': 'Kita wajib beriman dengan malaikat yang telah disebut nama mereka oleh Allah dalam Al-Quran atau disebut oleh Rasulullah s.a.w dalam As-Sunnah, yang teragungnya tiga:', 'isBold': false, 'isArabic': false},
+      {'text': 'i. Jibril dan dinamakan juga dengan Jibrail. Dia ialah Ruh Al-Qudus yang menurunkan wahyu. Dan dengan wahyu inilah telah dapat menghidupkan hati-hati ke atas rasul-rasul a.s.', 'isBold': false, 'isArabic': false},
+      {'text': 'ii. Mikail, dinamakan juga dengan Mikal. Dia telah ditugaskan menurunkan hujan yang menghidupkan bumi dengan membawanya ke tempat yang telah diarahkan oleh Allah s.w.t.', 'isBold': false, 'isArabic': false},
+      {'text': 'iii. Israfil. Ditugaskan untuk meniup serunai sangkakala yang dengannya berakhirlah kehidupan dunia dan bermulalah kehidupan akhirat, yang akan menghidupkan semua jasad.', 'isBold': false, 'isArabic': false},
+      {'text': 'd) Sifat-Sifat Malaikat', 'isBold': true, 'isArabic': false},
+      {'text': 'Malaikat ialah suatu makhluk yang memang wujud, mempunyai jisim yang hakiki serta bersifat dengan sifat-sifat kejadian (bentuk luaran) dan sifat akhlak yang baik, antaranya:', 'isBold': false, 'isArabic': false},
+      {'text': 'i) Besar kejadian serta tubuh badan mereka. Allah s.w.t. telah mencipta malaikat dengan bentuk yang besar dan kuat, sesuai dengan tugas mereka yang mulia sama ada di langit dan di bumi.', 'isBold': false, 'isArabic': false},
+      {'text': 'ii) Mereka mempunyai sayap. Allah menciptakan bagi mereka sayap, ada yang mempunyai dua, tiga dan empat atau lebih, sebagaimana Rasulullah s.a.w. telah melihat rupa Jibrail yang sebenar mempunyai 600 sayap yang memenuhi ufuk.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Segala puji tertentu bagi Allah yang menciptakan langit dan bumi, yang menjadikan malaikat utusan-utusan yang bersayap dua, tiga dan empat. Dia menambah pada bentuk kejadian makhluk yang diciptakan-Nya apa jua yang dikehendaki-Nya". (Surah Fathir, Ayat 1).', 'isBold': false, 'isArabic': false},
+      {'text': 'iii) Tidak berhajat kepada makanan dan minuman. Allah Taala mencipta malaikat yang tidak berhajat kepada makan dan minum, juga tidak berkahwin dan tidak mempunyai keturunan.', 'isBold': false, 'isArabic': false},
+      {'text': 'iv) Malaikat suatu makhluk yang cerdik serta mempunyai pemikiran yang pintar. Mereka berbicara dengan Allah dan Allah juga berkata-kata dengan mereka. Mereka juga bercakap dengan Adam a.s dan nabi-nabi yang lain.', 'isBold': false, 'isArabic': false},
+      {'text': 'v) Boleh bertukar rupa daripada kejadian mereka yang asal. Allah telah mengurniakan kepada mereka kebolehan untuk bertukar rupa menjadi rupa lelaki daripada kalangan manusia, ini sekaligus menolak dakwaan penyembah berhala yang menyangka bahawa malaikat ialah anak perempuan Allah. Kita tidak dapat mengetahui bagaimana cara mereka bertukar rupa, tetapi memang mereka berupaya untuk berupa menjadi manusia sehingga tidak dapat dibezakan dengan manusia sebenar.', 'isBold': false, 'isArabic': false},
+      {'text': 'vi) Kematian malaikat. Mereka semua akan mati pada Hari Kiamat termasuk Malakul Maut (yang mencabut nyawa), kemudian mereka akan dibangkitkan semula untuk melaksanakan tugas yang telah diberikan oleh Allah kepada mereka.', 'isBold': false, 'isArabic': false},
+      {'text': 'vii) Ibadat malaikat. Mereka melakukan ibadat kepada Allah Taala dengan berbagai-bagai jenis ibadat, antaranya: solat, doa, tasbih (memuji Allah), rukuk, sujud, "khauf" (takut), "khasyiah" (takut), mahabbah dan lain-lain.', 'isBold': false, 'isArabic': false},
+      {'text': 'Antara sifat-sifat ibadat mereka ialah:', 'isBold': false, 'isArabic': false},
+      {'text': '– Berkekalan dan berterusan dengan tidak pernah berasa jemu.', 'isBold': false, 'isArabic': false},
+      {'text': '– Ikhlas kepada Allah Taala.', 'isBold': false, 'isArabic': false},
+      {'text': '– Sentiasa melakukan ketaatan dan tidak pernah melakukan maksiat kerana mereka terpelihara daripada melakukan dosa dan maksiat.', 'isBold': false, 'isArabic': false},
+      {'text': '– Sentiasa bersifat tawadhu\' (merendah diri) walaupun banyak beribadat. Firman Allah Taala: "Mereka beribadat malam dan siang, dengan tidak berhenti-henti". (Surah Al-Anbiya\', ayat 20).', 'isBold': false, 'isArabic': false},
+      {'text': 'e) Tugas-tugas Malaikat', 'isBold': true, 'isArabic': false},
+      {'text': 'Para malaikat menjalankan tugas-tugas mulia yang telah dipertanggungjawabkan oleh Allah kepada mereka, antaranya:', 'isBold': false, 'isArabic': false},
+      {'text': 'i) Memikul Arasy.\nii) Menurunkan wahyu kepada rasul-rasul.\niii) Menjaga syurga dan neraka.\niv) Menjaga awan, hujan dan tumbuh-tumbuhan.\nv) Menjaga bukit bukau dan gunung-ganang.\nvi) Meniup serunai sangkakala.\nvii) Menulis amalan anak Adam (manusia).\nviii) Menjaga anak Adam. Apabila seseorang itu telah ditakdirkan oleh Allah akan ditimpa bencana, mereka akan meninggalkannya kemudian bala pun menimpa orang itu.\nix) Sentiasa bersama manusia dan mendoakan untuknya ke arah kebaikan.\nx) Menjaga air mani di dalam rahim, kemudian meniup roh manusia, menulis rezekinya, amalannya, baik atau celaka hidupnya.\nxi) Mengambil nyawa manusia ketika sampai ajalnya.\nxii) Menyoal manusia di dalam kubur dan mengenakan balasan ke atas mereka, nikmat atau azab.\nxiii) Menyampaikan salam yang diucapkan oleh setiap umat kepada Nabi s.a.w.', 'isBold': false, 'isArabic': false},
+      {'text': 'Oleh yang demikian, seorang muslim tidak perlu bermusafir ke makam Nabi s.a.w untuk menyampaikan salam, memadai dengan membaca selawat dan salam kepada Nabi s.a.w di mana saja mereka berada, kerana malaikat akan membawa serta menyampaikannya kepada Nabi s.a.w. Seseorang itu boleh bermusafir ke masjid Nabi untuk menunaikan solat di dalamnya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Para malaikat mempunyai kerja dan tugas yang amat banyak, apa yang disebutkan di atas hanyalah yang masyhur.', 'isBold': false, 'isArabic': false},
+      {'text': 'Antara dalil-dalil yang menunjukkan kepada tugas mereka ialah:', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Malaikat yang memikul Arasy dan malaikat yang berada di sekelilingnya bertasbih memuji Tuhan-Nya dan beriman kepada-Nya serta mereka memohon ampun bagi orang-orang yang beriman". (Surah Ghafir, Ayat 7).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Katakanlah (wahai Muhammad): Sesiapa memusuhi Jibril maka sebabnya ialah kerana Jibril itu menurunkan Al-Quran ke dalam hatimu dengan izin Allah". (Surah Al-Baqarah, Ayat 97).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan (sungguh ngeri) sekiranya engkau melihat ketika orang-orang yang zalim itu dalam penderitaan sakaratulmaut (ketika hendak putus nyawa), sedang malaikat-malaikat pula menghulurkan tangan mereka (memukul dan menyeksa orang-orang itu) sambil berkata (dengan menengking dan mengejek): Keluarkanlah nyawa kamu (dari tubuh kamu sendiri)". (Surah Al-An\'am, Ayat 93).', 'isBold': false, 'isArabic': false},
+      {'text': 'f) Hak-Hak Malaikat Ke Atas Manusia', 'isBold': true, 'isArabic': false},
+      {'text': 'i) Beriman dengan mereka.\nii) Mengasihi serta memuliakan mereka serta menyebut kelebihan mereka.\niii) Haram mencerca atau mengurangkan ketinggian darjat mereka atau mempersendakan mereka.\niv) Hindarkan daripada melakukan perkara yang dibenci oleh malaikat, kerana mereka akan berasa kurang senang sebagaimana anak Adam merasainya.', 'isBold': false, 'isArabic': false},
+      {'text': 'C – NATIJAH BERIMAN KEPADA MALAIKAT', 'isBold': true, 'isArabic': false},
+      {'text': '1. Merealisasikan maksud iman, kerana tidak sah iman itu melainkan dengan beriman dengan mereka.', 'isBold': false, 'isArabic': false},
+      {'text': '2. Mengetahui keagungan Pencipta mereka Yang Maha Tinggi dan mengetahui kekuatan serta kerajaan-Nya, kerana kehebatan makhluk ciptaan-Nya menunjukkan keagungan penciptanya.', 'isBold': false, 'isArabic': false},
+      {'text': '3. Bertambah keimanan di dalam hati seseorang muslim dengan mengetahui sifat-sifat malaikat, keadaan serta tugas-tugas mereka.', 'isBold': false, 'isArabic': false},
+      {'text': '4. Mendapat keamanan dan ketenangan bagi seseorang muslim apabila Allah menguatkan mereka dengan bantuan malaikat.', 'isBold': false, 'isArabic': false},
+      {'text': '5. Kasihkan para malaikat kerana mereka telah menjalankan ibadat dengan sempurna serta mereka sentiasa beristighfar (meminta ampun) bagi orang-orang mukmin.', 'isBold': false, 'isArabic': false},
+      {'text': '6. Membenci semua perbuatan jahat dan maksiat.', 'isBold': false, 'isArabic': false},
+      {'text': '7. Bersyukur kepada Allah Taala kerana sentiasa mengambil berat terhadap hamba-hamba-Nya, dengan mengutuskan malaikat yang sentiasa menjaga keselamatan, menulis semua amalan yang dilakukan dan lainnya bagi kebaikan manusia.', 'isBold': false, 'isArabic': false},
+    ];
+  }
+
+  static List<Map<String, dynamic>> getRukunImanKetigaFormatted() {
+    return [
+      {'text': 'Beriman dengan kitab-kitab Allah yang diturunkan ke atas rasul-rasul a.s. ialah Rukun Iman yang ketiga. Allah Taala telah mengutuskan rasul-rasul-Nya dengan bukti-bukti yang jelas serta menurunkan kepada mereka kitab-kitab yang menjadi rahmat kepada alam semesta. Kitab-kitab ini menjadi petunjuk kepada mereka untuk mencapai kebahagiaan di dunia dan di akhirat, juga sebagai pedoman hidup yang akan mereka lalui dan penyelesai kepada semua perkara yang menjadi perselisihan di kalangan mereka.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Demi sesungguhnya! Kami telah mengutus rasul-rasul Kami dengan membawa bukti-bukti dan mukjizat yang jelas (nyata) dan Kami telah menurunkan bersama-sama mereka kitab suci dan keterangan yang menjadi neraca keadilan, supaya manusia dapat menjalankan keadilan". (Surah Al-Hadid, Ayat 25).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Pada mulanya manusia itu ialah umat yang satu (menurut agama Allah yang satu, tetapi setelah mereka berselisihan), maka Allah mengutuskan nabi-nabi sebagai pemberi khabar gembira (kepada orang-orang yang beriman dengan balasan syurga) dan pemberi amaran (kepada orang-orang yang ingkar dengan balasan azab neraka) dan Allah menurunkan bersama nabi-nabi itu kitab-kitab suci yang (mengandungi keterangan-keterangan yang) benar, untuk menjalankan hukum di antara manusia mengenai perkara yang mereka perselisihkan". (Surah Al-Baqarah, Ayat 213).', 'isBold': false, 'isArabic': false},
+      {'text': 'A – HAKIKAT BERIMAN DENGAN KITAB-KITAB', 'isBold': true, 'isArabic': false},
+      {'text': 'Beriman dengan kitab-kitab ialah mengakui dengan sepenuhnya bahawa Allah menurunkan Kitab-kitab kepada rasul-rasul a.s. Kitab-kitab itu adalah kalam Allah yang hakiki, ianya membawa cahaya dan petunjuk, semua isi kandungannya hak, benar dan adil. Kita wajib mengikutinya dan beramal dengannya, tidak diketahui bilangannya kecuali Allah.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan Allah telah berkata-kata kepada Nabi Musa dengan kata-kata (secara langsung, tidak ada perantaraan)". (Surah An-Nisa\', Ayat 164).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan jika seseorang daripada kaum musyrik meminta perlindungan kepadamu (untuk memahami Islam), maka berilah perlindungan kepadanya sehingga dia sempat mendengar keterangan-keterangan Allah (tentang hakikat Islam itu)". (Surah At-Taubah, Ayat 6).', 'isBold': false, 'isArabic': false},
+      {'text': 'B – HUKUM BERIMAN DENGAN KITAB', 'isBold': true, 'isArabic': false},
+      {'text': 'Wajib beriman dengan semua kitab yang diturunkan oleh Allah kepada rasul-rasul-Nya a.s. Allah Taala berkata-kata dengan secara hakiki. Sesungguhnya kitab yang diturunkan itu bukanlah makhluk, sesiapa yang mengingkari semuanya atau sebahagian daripadanya akan menjadi kafir.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Wahai orang-orang yang beriman! Tetapkanlah iman kamu kepada Allah dan Rasul-Nya dan kepada kitab Al-Quran yang telah diturunkan kepada Rasul-Nya (Muhammad s.a.w) dan juga kepada kitab-kitab suci yang telah diturunkan terdahulu daripada itu dan sesiapa yang kufur (ingkar) kepada Allah dan malaikat-malaikat-Nya dan kitab-kitab-Nya dan rasul-rasul-Nya dan juga Hari Akhirat, maka sesungguhnya dia telah sesat dengan kesesatan yang amat jauh". (Surah An-Nisa\', Ayat 136).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan ini sebuah kitab (Al-Quran) yang Kami turunkan, yang ada berkatnya (banyak manfaatnya). Oleh itu, hendaklah kamu mengikutinya dan bertaqwalah (kepada Allah), mudah-mudahan kamu beroleh rahmat". (Surah Al-An\'am, Ayat 155).', 'isBold': false, 'isArabic': false},
+      {'text': 'C – KEPERLUAN MANUSIA KEPADA KITAB-KITAB (PETUNJUK) DAN HIKMAH DARIPADA PENURUNANNYA', 'isBold': true, 'isArabic': false},
+      {'text': '1. Supaya kitab-kitab yang diturunkan kepada rasul-rasul akan menjadi rujukan bagi umatnya. Mereka merujuk kepadanya untuk mengetahui agama mereka.', 'isBold': false, 'isArabic': false},
+      {'text': '2. Supaya kitab-kitab yang diturunkan kepada rasul-rasul akan menjadi sumber hukum yang adil kepada umatnya dalam semua perkara yang menjadi perselisihan.', 'isBold': false, 'isArabic': false},
+      {'text': '3. Supaya kitab-kitab yang diturunkan kepada rasul-rasul akan menjaga agama selepas kewafatan rasul tersebut, walaupun panjang jarak masa dan tempat, sebagaimana keadaan dakwah Nabi kita Muhammad s.a.w.', 'isBold': false, 'isArabic': false},
+      {'text': '4. Supaya kitab-kitab ini menjadi hujjah Allah Taala ke atas hamba-Nya, tidak mungkin mereka menyalahinya atau tidak mengikutinya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Pada mulanya manusia itu ialah umat yang satu (menurut agama Allah yang satu, tetapi setelah mereka berselisihan), maka Allah mengutuskan nabi-nabi sebagai pemberi khabar gembira (kepada orang-orang yang beriman dengan balasan syurga) dan pemberi amaran (kepada orang-orang yang ingkar dengan balasan azab neraka) dan Allah menurunkan bersama nabi-nabi itu kitab-kitab suci yang (mengandungi keterangan-keterangan yang) benar, untuk menjalankan hukum di antara manusia mengenai apa yang mereka perselisihkan". (Surah Al-Baqarah, Ayat 213).', 'isBold': false, 'isArabic': false},
+      {'text': 'D – CARA BERIMAN DENGAN KITAB-KITAB', 'isBold': true, 'isArabic': false},
+      {'text': 'Beriman dengan kitab-kitab Allah secara umum dan secara terperinci.', 'isBold': false, 'isArabic': false},
+      {'text': 'Beriman secara umum ialah: Beriman bahawa Allah Taala telah menurunkan kitab-kitab kepada rasul-rasul-Nya a.s.', 'isBold': false, 'isArabic': false},
+      {'text': 'Manakala beriman secara terperinci pula ialah: Beriman dengan semua kitab yang Allah sebutkan namanya di dalam Al-Quran. Sesungguhnya kita telah mengetahui sebahagian daripadanya, iaitu: Al-Quran, Taurat, Zabur, Injil, Suhuf Ibrahim dan Suhuf Musa. Kita juga beriman bahawa sesungguhnya Allah Taala telah menurunkan kitab-kitab lain selain daripada kitab-kitab yang tersebut kepada nabi-nabi-Nya, tidak mengetahui namanya serta bilangannya kecuali yang menurunkannya (Allah Taala).', 'isBold': false, 'isArabic': false},
+      {'text': 'Semua kitab ini diturunkan untuk meneguhkan tauhid terhadap Allah dengan mengesakan-Nya dengan ibadat dan amal soleh serta menegah daripada melakukan perbuatan syirik dan kerosakan di atas muka bumi ini. Asal dakwah para nabi adalah satu, walaupun berbeza dari segi syariat dan hukum. Beriman dengan kitab-kitab bererti mengakui turunnya kitab-kitab kepada rasul-rasul yang terdahulu dan beriman dengan Al-Quran ialah mengakui kebenarannya serta mengikut semua isi kandungannya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Rasulullah telah beriman kepada apa yang diturunkan kepadanya dari Tuhannya dan juga orang-orang yang beriman semuanya beriman kepada Allah dan malaikat-malaikat-Nya dan kitab-kitab-Nya dan rasul-rasul-Nya". (Surah Al-Baqarah, Ayat 285).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "(Katakanlah kepada mereka wahai Muhammad): Turutlah apa yang telah diturunkan kepada kamu dari Tuhan kamu dan janganlah kamu menurut pemimpin-pemimpin yang lain dari Allah". (Surah Al-A\'raf, ayat 3).', 'isBold': false, 'isArabic': false},
+      {'text': 'Sesungguhnya Al-Quran istimewa daripada kitab-kitab terdahulu disebabkan beberapa perkara, yang terpentingnya ialah:', 'isBold': false, 'isArabic': false},
+      {'text': '1. Al-Quran adalah mukjizat dengan lafaz dan maknanya serta semua isi kandungannya yang mengandungi hakikat alam semesta dan sains.', 'isBold': false, 'isArabic': false},
+      {'text': '2. Al-Quran ialah kitab terakhir yang diturunkan dari langit, menjadi penutup kepada semua kitab-kitab terdahulu sebagaimana Nabi kita Muhammad s.a.w menjadi penutup sekalian rasul.', 'isBold': false, 'isArabic': false},
+      {'text': '3. Allah Taala telah menjamin untuk menjaganya daripada sebarang penyelewengan atau pengubahan, berbeza dengan kitab-kitab yang lain, telah ditukar dan diubah isi kandungannya.', 'isBold': false, 'isArabic': false},
+      {'text': '4. Al-Quran membenarkan semua kitab yang terdahulu daripadanya serta memelihara dan mengawasi kitab-kitab tersebut.', 'isBold': false, 'isArabic': false},
+      {'text': '5. Al-Quran telah membatalkan ("menasakh") semua kitab-kitab yang terdahulu.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "(Kisah nabi-nabi yang terkandung dalam Al-Quran) bukanlah merupakan suatu cerita yang diada-adakan, tetapi ia mengisahkan apa yang tersebut di dalam kitab-kitab agama yang terdahulu daripadanya dan merupakan keterangan yang menjelaskan tiap-tiap sesuatu serta menjadi hidayat petunjuk dan rahmat bagi kaum yang (mahu) beriman". (Surah Yusuf, Ayat 111).', 'isBold': false, 'isArabic': false},
+      {'text': 'E – MENERIMA KHABAR (BERITA) KITAB-KITAB TERDAHULU', 'isBold': true, 'isArabic': false},
+      {'text': 'Kita mengetahui secara yakin bahawa semua cerita yang terkandung di dalam kitab-kitab terdahulu yang telah diwahyukan oleh Allah kepada rasul-rasul-Nya a.s. adalah benar dan tidak diragui akan kebenarannya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Ini tidak bermakna kita menerima semua isi kandungan kitab-kitab yang masih ada di tangan Ahli Kitab (Yahudi dan Nasrani), kerana ianya telah ditukar dan diselewengkan, tidak ada lagi naskhah sebenar sebagaimana yang diturunkan oleh Allah kepada rasul-rasul-Nya a.s. Antara yang kita yakini benar daripada isi kandungan kitab-kitab terdahulu ialah perkara yang telah diterangkan oleh Allah di dalam kitab-Nya: "Bahawa sesungguhnya seseorang itu tidak akan memikul dosa perbuatan orang lain kecuali dosa yang dilakukannya sahaja". Dan, "Bahawasanya seseorang itu tidak memperolehi sesuatu selain apa yang telah diusahakannya". Dan, "Bahawa sesungguhnya usaha itu akan ditunjukkan (kepadanya, pada Hari Kiamat kelak). Kemudian usaha itu akan dibalas dengan balasan yang amat sempurna".', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Atau belumkah dia diberitahu akan apa yang terkandung dalam kitab-kitab Nabi Musa dan juga (dalam kitab-kitab) Nabi Ibrahim yang memenuhi dengan sempurnanya (segala yang diperintahkan kepadanya). (Dalam kitab-kitab itu ditegaskan): Bahawa sesungguhnya seseorang itu tidak akan memikul dosa perbuatan orang lain kecuali dosa yang dilakukannya sahaja dan bahawasanya seseorang itu tidak memperolehi sesuatu selain apa yang telah diusahakannya. Dan bahawa sesungguhnya usaha itu akan ditunjukkan (kepadanya, pada Hari Kiamat kelak). Kemudian usaha itu akan dibalas dengan balasan yang amat sempurna". (Surah An-Najm, Ayat 36-41).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Bahkan kamu utamakan kehidupan dunia. Padahal kehidupan akhirat lebih baik dan lebih kekal. Sesungguhnya (keterangan-keterangan yang dinyatakan) ini ada (disebutkan) di dalam kitab-kitab yang terdahulu, iaitu kitab-kitab Nabi Ibrahim dan Nabi Musa". (Surah Al-A\'la, Ayat 16-19).', 'isBold': false, 'isArabic': false},
+      {'text': 'Adapun hukum-hukumnya: Semua hukum yang terkandung di dalam Al-Quran wajib ke atas kita untuk mengikutinya. Ini berbeza dengan isi kandungan kitab-kitab yang terdahulu, kita pertimbangkan dahulu, sekiranya ia bercanggah dengan syariat kita maka tidak boleh beramal dengannya, bukan ianya suatu hukum yang batil, sebaliknya ia adalah suatu yang hak pada zaman diturunkannya tetapi kita tidak wajib mengikutinya kerana ia telah termansuh (terbatal) dengan syariat kita dan sekiranya ia bertepatan dengan syariat kita maka ianya benar, syariat kita telah membuktikan kebenarannya.', 'isBold': false, 'isArabic': false},
+      {'text': 'F – KITAB-KITAB YANG DITURUNKAN DARI LANGIT YANG DISEBUT DI DALAM AL-QURAN DAN AS-SUNNAH', 'isBold': true, 'isArabic': false},
+      {'text': '1. Al-Quran Al-Karim', 'isBold': true, 'isArabic': false},
+      {'text': 'Al-Quran ialah kalam Allah yang diturunkan kepada Nabi Muhammad s.a.w, penamat sekalian rasul, ia adalah kitab terakhir yang diturunkan, Allah telah menjamin untuk menjaganya daripada sebarang penyelewengan dan pengubahan serta menjadikannya "nasikh" (pembatal) semua kitab-kitab yang lain.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Sesungguhnya Kamilah yang menurunkan Al-Quran dan Kamilah yang memelihara dan menjaganya". (Surah Al-Hijr, Ayat 9).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan Kami turunkan kepadamu (wahai Muhammad) kitab (Al-Quran) dengan membawa kebenaran, untuk mengesahkan kebenaran kitab-kitab suci yang telah diturunkan sebelumnya dan untuk memelihara serta mengawasinya. Maka jalankanlah hukuman di antara mereka (Ahli Kitab) itu dengan apa yang telah diturunkan oleh Allah (kepadamu)". (Surah Al-Maidah, Ayat 48).', 'isBold': false, 'isArabic': false},
+      {'text': '2. Taurat', 'isBold': true, 'isArabic': false},
+      {'text': 'Taurat ialah kitab yang diturunkan oleh Allah kepada Nabi Musa a.s. dan menjadikannya petunjuk dan cahaya yang berhukum dengannya Bani Israel dan ulama\' mereka.', 'isBold': false, 'isArabic': false},
+      {'text': 'Kitab Taurat yang kita wajib beriman dengannya ialah Taurat yang Allah turunkan kepada Nabi Musa a.s, bukan Taurat yang telah dipinda dan diubah yang berada di tangan Ahli Kitab sekarang.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Sesungguhnya Kami telah menurunkan Kitab Taurat, yang mengandungi petunjuk dan cahaya yang menerangi dengan kitab itu nabi-nabi yang menyerah diri (kepada Allah) menetapkan hukum bagi orang-orang Yahudi dan (dengannya juga) ulama\' mereka dan pendita-penditanya (menjalankan hukum Allah), sebab mereka diamanahkan memelihara dan menjalankan hukum-hukum dari Kitab Allah (Taurat) itu". (Surah Al-Maidah, Ayat 44).', 'isBold': false, 'isArabic': false},
+      {'text': '3. Injil', 'isBold': true, 'isArabic': false},
+      {'text': 'Injil ialah Kitab yang diturunkan oleh Allah kepada Nabi \'Isa a.s., menjadi pembenar kepada kitab-kitab dari langit yang terdahulu darinya.', 'isBold': false, 'isArabic': false},
+      {'text': 'Kitab Injil yang kita wajib beriman dengannya ialah Injil yang Allah turunkan kepada Nabi \'Isa a.s dengan asas yang sahih, bukan Injil yang telah dipinda dan diubah yang berada di tangan Ahli Kitab sekarang.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan Kami utuskan Nabi \'Isa ibni Mariam mengikuti jejak langkah mereka (nabi-nabi Bani Israil), untuk membenarkan Kitab Taurat yang diturunkan sebelumnya dan Kami telah berikan kepadanya Kitab Injil, yang mengandungi petunjuk hidayat dan cahaya yang menerangi, sambil mengesahkan benarnya apa yang telah ada di hadapannya dari Kitab Taurat, serta menjadi petunjuk dan nasihat pengajaran bagi orang-orang yang (hendak) bertaqwa". (Surah Al-Maidah, Ayat 46).', 'isBold': false, 'isArabic': false},
+      {'text': 'Di antara isi kandungan Taurat dan Injil ialah membawa khabar risalah Nabi kita Muhammad s.a.w.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Iaitu orang-orang yang mengikut Rasulullah (Muhammad s.a.w.) Nabi yang Ummi, yang mereka dapati tertulis (namanya dan sifat-sifatnya) di dalam Taurat dan Injil yang ada di sisi mereka. Dia menyuruh mereka dengan perkara-perkara yang baik dan melarang mereka daripada melakukan perkara-perkara yang keji dan dia menghalalkan bagi mereka segala perkara yang baik dan mengharamkan kepada mereka segala perkara yang buruk dan dia juga menghapuskan beban-beban dan belenggu-belenggu yang ada pada mereka". (Surah Al-A\'raf, Ayat 157).', 'isBold': false, 'isArabic': false},
+      {'text': '4. Zabur', 'isBold': true, 'isArabic': false},
+      {'text': 'Zabur ialah Kitab yang diturunkan oleh Allah kepada Nabi Daud a.s.', 'isBold': false, 'isArabic': false},
+      {'text': 'Kitab Zabur yang kita wajib beriman dengannya ialah Zabur yang Allah turunkan kepada Nabi Daud a.s., bukan Zabur yang telah dipinda dan diubah oleh angkara jahat orang Yahudi.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Dan juga Kami telah mengurniakan kepada Nabi Daud Kitab Zabur". (Surah An-Nisa\', Ayat 163).', 'isBold': false, 'isArabic': false},
+      {'text': '5. Suhuf Nabi Ibrahim a.s. dan Musa a.s.', 'isBold': true, 'isArabic': false},
+      {'text': 'Iaitu Suhuf yang telah diberi oleh Allah kepada Nabi Ibrahim dan Nabi Musa a.s. Suhuf-suhuf ini telah hilang tidak dapat diketahui sesuatu tentang isi kandungannya kecuali perkara yang telah disebut mengenainya dalam Al-Quran dan As-Sunnah.', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Atau belumkah dia diberitahu akan apa yang terkandung dalam kitab-kitab Nabi Musa dan juga (dalam kitab-kitab) Nabi Ibrahim yang memenuhi dengan sempurnanya (segala yang diperintahkan kepadanya)? (Dalam kitab-kitab itu ditegaskan): Bahawa sesungguhnya seseorang itu tidak akan memikul dosa perbuatan orang lain kecuali dosa yang dilakukannya sahaja. Dan bahawasanya seseorang itu tidak memperolehi sesuatu selain apa yang telah diusahakannya. Dan bahawa sesungguhnya usaha itu akan ditunjukkan (kepadanya, pada Hari Kiamat kelak). Kemudian usaha itu akan dibalas dengan balasan yang amat sempurna". (Surah An-Najm, Ayat 36-41).', 'isBold': false, 'isArabic': false},
+      {'text': 'Firman Allah Taala: "Bahkan kamu utamakan kehidupan dunia; Padahal kehidupan akhirat lebih baik dan lebih kekal. Sesungguhnya (keterangan-keterangan yang dinyatakan) ini ada (disebutkan) di dalam kitab-kitab yang terdahulu, Iaitu kitab-kitab Nabi Ibrahim dan Nabi Musa". (Surah Al-A\'la, Ayat 16-19).', 'isBold': false, 'isArabic': false},
     ];
   }
 }

@@ -46,6 +46,24 @@ class ContentRenderer extends StatelessWidget {
     );
   }
 
+  static Widget renderRukunImanPertama() {
+    return ContentRenderer(
+      content: ContentTexts.getRukunImanPertamaFormatted(),
+    );
+  }
+
+  static Widget renderRukunImanKedua() {
+    return ContentRenderer(
+      content: ContentTexts.getRukunImanKeduaFormatted(),
+    );
+  }
+
+  static Widget renderRukunImanKetiga() {
+    return ContentRenderer(
+      content: ContentTexts.getRukunImanKetigaFormatted(),
+    );
+  }
+
   // Static method to render simple text list
   static Widget renderSimpleText(List<String> texts) {
     return ContentRenderer(

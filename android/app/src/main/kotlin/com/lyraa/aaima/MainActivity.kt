@@ -1,4 +1,4 @@
-package com.example.aaima
+package com.lyraa.aaima
 
 import io.flutter.embedding.android.FlutterActivity
 

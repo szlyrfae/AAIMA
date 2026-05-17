@@ -1,3 +1,9 @@
+import 'package:aaima/Aqidah/Rukun%20Iman/perincian-hakikat-beriman-kepada-allah.dart';
+
+import 'Rukun Iman/memahami-asmaul-husna.dart';
+import 'Rukun Iman/rukun-kedua-beriman-dengan-malaikat.dart';
+import 'Rukun Iman/rukun-ketiga-beriman-dengan-kitab.dart';
+import 'Rukun Iman/rukun-pertama-beriman-kepada-allah.dart';
 import 'Rukun Iman/rukun_iman_pengenalan.dart';
 import 'package:aaima/main.dart';
 import 'package:flutter/material.dart';
@@ -101,7 +107,13 @@ class _AqidahPageState extends State<AqidahPage> {
                           ),
                       ),
                       GestureDetector(
-                          onTap: (){},
+                          onTap: (){
+                            print('Tapped on Rukun Pertama: Beriman Kepada Allah'); // Debug print
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const RukunImanPertamaPage()),
+                            );
+                          },
                           child: Container(
                             width: double.infinity,
                             padding: const EdgeInsets.all(12),
@@ -122,7 +134,13 @@ class _AqidahPageState extends State<AqidahPage> {
                           ),
                       ),
                       GestureDetector(
-                          onTap: (){},
+                          onTap: (){
+                            print('Tapped on – Perincian Hakikat Beriman Kepada Allah'); // Debug print
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const Perincian_hakikat_beriman_kepada_allahPage()),
+                            );
+                          },
                           child: Container(
                             width: double.infinity,
                             padding: const EdgeInsets.all(12),
@@ -143,7 +161,13 @@ class _AqidahPageState extends State<AqidahPage> {
                           ),
                       ),
                       GestureDetector(
-                          onTap: (){},
+                          onTap: (){
+                            print('Tapped on – Memahami Asma’ul Husna'); // Debug print
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const Memahami_Asmaul_HusnaPage()),
+                            );
+                          },
                           child: Container(
                             width: double.infinity,
                             padding: const EdgeInsets.all(12),
@@ -164,7 +188,13 @@ class _AqidahPageState extends State<AqidahPage> {
                           ),
                       ),
                       GestureDetector(
-                          onTap: (){},
+                          onTap: (){
+                            print('Tapped on Rukun Kedua: Beriman Dengan Malaikat'); // Debug print
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const RukunImanKeduaPage()),
+                            );
+                          },
                           child: Container(
                             width: double.infinity,
                             padding: const EdgeInsets.all(12),
@@ -185,7 +215,13 @@ class _AqidahPageState extends State<AqidahPage> {
                           ),
                       ),
                       GestureDetector(
-                          onTap: (){},
+                          onTap: (){
+                            print('test');
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const RukunImanKetigaPage()),
+                            );
+                          },
                           child: Container(
                             width: double.infinity,
                             padding: const EdgeInsets.all(12),
