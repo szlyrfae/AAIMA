@@ -1,6 +1,3 @@
-import 'rukun-pertama-beriman-kepada-allah.dart';
-import 'rukun_iman_pengenalan.dart';
-import 'package:aaima/main.dart';
 import 'package:flutter/material.dart';
 import '../../widgets/app_drawer.dart';
 import '../../widgets/app_bottomNavigationBar.dart';
@@ -10,24 +7,47 @@ class Perincian_hakikat_beriman_kepada_allahPage extends StatefulWidget {
   const Perincian_hakikat_beriman_kepada_allahPage({super.key});
 
   @override
-  State<Perincian_hakikat_beriman_kepada_allahPage> createState() => _Perincian_hakikat_beriman_kepada_allahPageState();
+  State<Perincian_hakikat_beriman_kepada_allahPage> createState() =>
+      _Perincian_hakikat_beriman_kepada_allahPageState();
 }
 
-class _Perincian_hakikat_beriman_kepada_allahPageState extends State<Perincian_hakikat_beriman_kepada_allahPage> {
+class _Perincian_hakikat_beriman_kepada_allahPageState
+    extends State<Perincian_hakikat_beriman_kepada_allahPage> {
   int _selectedIndex = 2;
+
+  final List<String> _topics = [
+    'I\'tiqad Ahlu As-Sunnah Tentang Allah',
+    'Persoalan Tentang DI Mana Allah – Allah Di Atas Arasy',
+    'Sifat Dua Mata',
+    'Wajah Allah',
+    'Dua Tangan',
+    'Aqidah terhadap "Nama-Nama Allah Yang Indah"',
+    'Sifat Ilmu',
+    'Sifat "Mendengar dan Melihat"',
+    'Kekuatan Semua Milik Allah',
+  ];
+
+  /// TODO: Tambah navigation di sini bila page setiap topik dah siap.
+  /// Contoh:
+  /// Navigator.push(context, MaterialPageRoute(
+  ///   builder: (context) => const ItiqadAhluSunnahPage(),
+  /// ));
+  void _onTopicTap(int index) {
+    debugPrint('Tapped topic index: $index → ${_topics[index]}');
+    // Belum ada page untuk setiap topik.
+    // Bila dah ada, tukar di sini.
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Aqidah'),
+        title: const Text('Perincian Hakikat Beriman Kepada Allah'),
         actions: [
           IconButton(
             icon: const Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.pop(context);
-            },
+            onPressed: () => Navigator.pop(context),
             tooltip: 'Back',
           ),
         ],
@@ -35,224 +55,59 @@ class _Perincian_hakikat_beriman_kepada_allahPageState extends State<Perincian_h
       drawer: const AppDrawer(),
       body: SingleChildScrollView(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Column(
-              children: [
-                const SizedBox(height: 10),
-                const Row(
-                  children: [
-                    SizedBox(width: 20),
-                    Text(
-                      'Perincian Hakikat Beriman Kepada Allah',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontFamily: 'Comic Sans MS',
+            const SizedBox(height: 10),
+
+            // ===== TAJUK =====
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20),
+              child: Text(
+                'Perincian Hakikat Beriman Kepada Allah',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontFamily: 'Comic Sans MS',
+                ),
+              ),
+            ),
+            const SizedBox(height: 10),
+
+            // ===== SENARAI TOPIK =====
+            Container(
+              margin: const EdgeInsets.fromLTRB(20, 0, 20, 10),
+              decoration: BoxDecoration(
+                border: Border.all(color: AppColors.primaryText, width: 1),
+              ),
+              child: Column(
+                children: List.generate(_topics.length, (index) {
+                  final isLast = index == _topics.length - 1;
+                  return GestureDetector(
+                    onTap: () => _onTopicTap(index),
+                    child: Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        border: isLast
+                            ? null
+                            : Border(
+                          bottom: BorderSide(
+                            color: AppColors.primaryText,
+                            width: 1,
+                          ),
+                        ),
+                      ),
+                      child: Text(
+                        _topics[index],
+                        style: const TextStyle(
+                          fontSize: 14,
+                          fontFamily: 'Roboto',
+                          color: AppColors.colourAaima2,
+                        ),
                       ),
                     ),
-                  ],
-                ),
-                const SizedBox(height: 10),
-                Container(
-                  margin: const EdgeInsets.fromLTRB(20, 0, 20, 0),
-                  decoration: BoxDecoration(
-                    border: Border.all(color: AppColors.primaryText, width: 1),
-                  ),
-                  child: Column(
-                    children: [
-                      GestureDetector(
-                        onTap: () {
-                          print('Tapped on Rukun Iman: Pengenalan'); // Debug print
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => const RukunImanPengenalanPage()),
-                          );
-                        },
-                        child: Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                  color: AppColors.primaryText, width: 1),
-                            ),
-                          ),
-                          child: Text(
-                            'I’tiqad Ahlu As-Sunnah Tentang Allah',
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontFamily: 'Roboto',
-                              color: AppColors.colourAaima2,
-                            ),
-                          ),
-                        ),
-                      ),
-                      GestureDetector(
-                        onTap: (){
-                        },
-                        child: Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                  color: AppColors.primaryText, width: 1),
-                            ),
-                          ),
-                          child: Text(
-                            'Persoalan Tentang DI Mana Allah – Allah Di Atas Arasy',
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontFamily: 'Roboto',
-                              color: AppColors.colourAaima2,
-                            ),
-                          ),
-                        ),
-                      ),
-                      GestureDetector(
-                        onTap: (){},
-                        child: Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                  color: AppColors.primaryText, width: 1),
-                            ),
-                          ),
-                          child: Text(
-                            'Sifat Dua Mata',
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontFamily: 'Roboto',
-                              color: AppColors.colourAaima2,
-                            ),
-                          ),
-                        ),
-                      ),
-                      GestureDetector(
-                        onTap: (){},
-                        child: Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                  color: AppColors.primaryText, width: 1),
-                            ),
-                          ),
-                          child: Text(
-                            'Wajah Allah',
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontFamily: 'Roboto',
-                              color: AppColors.colourAaima2,
-                            ),
-                          ),
-                        ),
-                      ),
-                      GestureDetector(
-                        onTap: (){},
-                        child: Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                  color: AppColors.primaryText, width: 1),
-                            ),
-                          ),
-                          child: Text(
-                            'Dua Tangan',
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontFamily: 'Roboto',
-                              color: AppColors.colourAaima2,
-                            ),
-                          ),
-                        ),
-                      ),
-                      GestureDetector(
-                        onTap: (){},
-                        child: Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                  color: AppColors.primaryText, width: 1),
-                            ),
-                          ),
-                          child: Text(
-                            'Aqidah terhadap “Nama-Nama Allah Yang Indah”',
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontFamily: 'Roboto',
-                              color: AppColors.colourAaima2,
-                            ),
-                          ),
-                        ),
-                      ),
-                      GestureDetector(
-                        onTap: (){},
-                        child: Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                  color: AppColors.primaryText, width: 1),
-                            ),
-                          ),
-                          child: Text(
-                            'Sifat Ilmu',
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontFamily: 'Roboto',
-                              color: AppColors.colourAaima2,
-                            ),
-                          ),
-                        ),
-                      ),
-                      GestureDetector(
-                        onTap: (){},
-                        child: Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                  color: AppColors.primaryText, width: 1),
-                            ),
-                          ),
-                          child: Text(
-                            'Sifat "Mendengar dan Melihat"',
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontFamily: 'Roboto',
-                              color: AppColors.colourAaima2,
-                            ),
-                          ),
-                        ),
-                      ),
-                      GestureDetector(
-                        onTap: (){},
-                        child: Container(
-                          width: double.infinity,
-                          padding: const EdgeInsets.all(12),
-                          child: Text(
-                            'Kekuatan Semua Milik Allah',
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontFamily: 'Roboto',
-                              color: AppColors.colourAaima2,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
+                  );
+                }),
+              ),
             ),
           ],
         ),
