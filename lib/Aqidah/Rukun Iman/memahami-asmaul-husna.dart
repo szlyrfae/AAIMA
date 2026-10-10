@@ -49,13 +49,6 @@ class _Memahami_Asmaul_HusnaPageState extends State<Memahami_Asmaul_HusnaPage> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('Memahami Asma\'ul Husna'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.pop(context),
-            tooltip: 'Back',
-          ),
-        ],
       ),
       drawer: const AppDrawer(),
       body: SingleChildScrollView(

@@ -67,13 +67,6 @@ class _RukunImanPengenalanPageState extends State<RukunImanPengenalanPage> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('Rukun Iman: Pengenalan'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.pop(context),
-            tooltip: 'Back',
-          ),
-        ],
       ),
       drawer: const AppDrawer(),
       body: InteractiveViewer(

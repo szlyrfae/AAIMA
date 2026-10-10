@@ -103,13 +103,6 @@ class _RukunImanKeenamPageState extends State<RukunImanKeenamPage> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('Rukun Iman Keenam'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.pop(context),
-            tooltip: 'Back',
-          ),
-        ],
       ),
       drawer: const AppDrawer(),
       body: InteractiveViewer(

@@ -1,4 +1,3 @@
-// lib/Aqidah/aqidah.dart
 import 'package:flutter/material.dart';
 
 // Sub-pages
@@ -33,13 +32,6 @@ class _AqidahPageState extends State<AqidahPage> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('Aqidah'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.pop(context),
-            tooltip: 'Back',
-          ),
-        ],
       ),
       drawer: const AppDrawer(),
       body: SingleChildScrollView(
@@ -47,8 +39,6 @@ class _AqidahPageState extends State<AqidahPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 10),
-
-            // ===== TAJUK =====
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: Text(
@@ -60,8 +50,6 @@ class _AqidahPageState extends State<AqidahPage> {
               ),
             ),
             const SizedBox(height: 10),
-
-            // ===== SUB-TAJUK =====
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: Text(
@@ -75,8 +63,6 @@ class _AqidahPageState extends State<AqidahPage> {
               ),
             ),
             const SizedBox(height: 10),
-
-            // ===== SENARAI MENU =====
             Container(
               margin: const EdgeInsets.fromLTRB(20, 0, 20, 10),
               decoration: BoxDecoration(
@@ -84,13 +70,10 @@ class _AqidahPageState extends State<AqidahPage> {
               ),
               child: Column(
                 children: [
-                  // --- Pengenalan ---
                   _MenuItem(
                     title: 'Rukun Iman: Pengenalan',
                     onTap: () => _go(context, const RukunImanPengenalanPage()),
                   ),
-
-                  // --- Rukun Pertama + Sub-menu ---
                   _MenuItem(
                     title: 'Rukun Pertama: Beriman Kepada Allah',
                     onTap: () => _go(context, const RukunImanPertamaPage()),
@@ -108,8 +91,6 @@ class _AqidahPageState extends State<AqidahPage> {
                     indent: true,
                     onTap: () => _go(context, const Memahami_Asmaul_HusnaPage()),
                   ),
-
-                  // --- Rukun Kedua hingga Keenam ---
                   _MenuItem(
                     title: 'Rukun Kedua: Beriman Dengan Malaikat',
                     onTap: () => _go(context, const RukunImanKeduaPage()),
@@ -130,8 +111,6 @@ class _AqidahPageState extends State<AqidahPage> {
                     title: 'Rukun Keenam: Beriman Dengan Qadar',
                     onTap: () => _go(context, const RukunImanKeenamPage()),
                   ),
-
-                  // --- Nota ringkas (belum ada page) ---
                   _MenuItem(
                     title: 'Nota-nota Ringkas Tentang Rukun Iman',
                     showDivider: false,
@@ -153,20 +132,11 @@ class _AqidahPageState extends State<AqidahPage> {
     );
   }
 
-  /// Helper: navigate ke page
   void _go(BuildContext context, Widget page) {
     Navigator.push(context, MaterialPageRoute(builder: (_) => page));
   }
 }
 
-// ============================================================================
-// WIDGET: Menu Item
-// ============================================================================
-/// Satu baris menu dalam senarai Aqidah.
-/// - [title]     : teks yang dipaparkan
-/// - [onTap]     : apa jadi bila ditekan
-/// - [indent]    : jika true, teks di-indent (untuk sub-menu)
-/// - [showDivider]: jika false, tiada border bawah (untuk item terakhir)
 class _MenuItem extends StatelessWidget {
   final String title;
   final VoidCallback onTap;

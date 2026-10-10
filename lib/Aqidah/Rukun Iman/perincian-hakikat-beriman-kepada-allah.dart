@@ -44,13 +44,6 @@ class _Perincian_hakikat_beriman_kepada_allahPageState
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('Perincian Hakikat Beriman Kepada Allah'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.pop(context),
-            tooltip: 'Back',
-          ),
-        ],
       ),
       drawer: const AppDrawer(),
       body: SingleChildScrollView(
